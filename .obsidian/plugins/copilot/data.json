@@ -13,7 +13,7 @@
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
-  "openRouterAiApiKey": "",
+  "openRouterAiApiKey": "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",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "",
@@ -24,7 +24,7 @@
   "githubCopilotToken": "",
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "defaultModelKey": "claude-sonnet-4-6|anthropic",
   "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -294,6 +294,11 @@
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "anthropic/claude-sonnet-4.6",
+      "provider": "openrouterai",
+      "enabled": true
     }
   ],
   "activeEmbeddingModels": [
