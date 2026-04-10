@@ -36,3 +36,4 @@ github.com/ploi/roadmap
 github.com/langchain-ai/langgraph
 github.com/sartography/spiff-arena
 github.com/crewAIInc/crewAI
+github.com/flowable/flowable-engine
