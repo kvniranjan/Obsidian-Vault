@@ -40,3 +40,5 @@ github.com/flowable/flowable-engine
 github.com/gorules/zen
 github.com/FoundationAgents/MetaGPT
 github.com/microsoft/semantic-kernel
+github.com/camunda/camunda
+github.com/florath/rmtoo
