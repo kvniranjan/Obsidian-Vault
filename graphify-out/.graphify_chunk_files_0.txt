@@ -1,0 +1,22 @@
+copilot/copilot-custom-prompts/Rewrite as tweet.md
+copilot/copilot-custom-prompts/Clip Web Page.md
+copilot/copilot-custom-prompts/Fix grammar and spelling.md
+copilot/copilot-custom-prompts/Make longer.md
+copilot/copilot-custom-prompts/Explain like I am 5.md
+copilot/copilot-custom-prompts/Translate to Chinese.md
+copilot/copilot-custom-prompts/Clip YouTube Transcript.md
+copilot/copilot-custom-prompts/Make shorter.md
+copilot/copilot-custom-prompts/Rewrite as tweet thread.md
+copilot/copilot-custom-prompts/Simplify.md
+copilot/copilot-custom-prompts/Emojify.md
+copilot/copilot-custom-prompts/Generate table of contents.md
+copilot/copilot-custom-prompts/Summarize.md
+copilot/copilot-custom-prompts/Remove URLs.md
+copilot/copilot-custom-prompts/Generate glossary.md
+BA Skills/BPMN Assistant (LLM-Powered).md
+BA Skills/LangGraph - AI Agent Orchestration Framework.md
+BA Skills/CrewAI - Role-Based Multi-Agent Orchestration Framework.md
+BA Skills/Stakeholder Analysis Framework.md
+BA Skills/SpiffArena - BPMN Workflow Automation Platform.md
+BA Skills/Semantic Kernel - Microsoft Enterprise AI Agent SDK.md
+BA Skills/TextUSM - Text-Based Diagram Generator.md

@@ -1,0 +1,127 @@
+copilot/copilot-custom-prompts/Rewrite as tweet.md
+copilot/copilot-custom-prompts/Clip Web Page.md
+copilot/copilot-custom-prompts/Fix grammar and spelling.md
+copilot/copilot-custom-prompts/Make longer.md
+copilot/copilot-custom-prompts/Explain like I am 5.md
+copilot/copilot-custom-prompts/Translate to Chinese.md
+copilot/copilot-custom-prompts/Clip YouTube Transcript.md
+copilot/copilot-custom-prompts/Make shorter.md
+copilot/copilot-custom-prompts/Rewrite as tweet thread.md
+copilot/copilot-custom-prompts/Simplify.md
+copilot/copilot-custom-prompts/Emojify.md
+copilot/copilot-custom-prompts/Generate table of contents.md
+copilot/copilot-custom-prompts/Summarize.md
+copilot/copilot-custom-prompts/Remove URLs.md
+copilot/copilot-custom-prompts/Generate glossary.md
+BA Skills/BPMN Assistant (LLM-Powered).md
+BA Skills/LangGraph - AI Agent Orchestration Framework.md
+BA Skills/CrewAI - Role-Based Multi-Agent Orchestration Framework.md
+BA Skills/Stakeholder Analysis Framework.md
+BA Skills/SpiffArena - BPMN Workflow Automation Platform.md
+BA Skills/Semantic Kernel - Microsoft Enterprise AI Agent SDK.md
+BA Skills/TextUSM - Text-Based Diagram Generator.md
+BA Skills/PM4Py - Process Mining for Business Analysts.md
+BA Skills/Camunda - BPMN Process Orchestration Framework.md
+BA Skills/Thunderdome - Agile Planning and Retro Suite.md
+BA Skills/Ploi Roadmap - Product Feedback and Roadmapping.md
+BA Skills/00-Tracked-Repos.md
+BA Skills/bpmn-io Web Modeler.md
+BA Skills/Drools - Apache KIE Rule and DMN Decision Engine.md
+BA Skills/rmToo - Git-Native Requirements Management Tool.md
+BA Skills/MetaGPT - Multi-Agent Requirements and Document Generation Framework.md
+BA Skills/dmnmd - DMN Decision Tables in Markdown.md
+BA Skills/GoRules Zen - Open-Source Business Rules Engine.md
+BA Skills/PM Tools Templates - Comprehensive BA Template Library.md
+BA Skills/Flowable Engine - BPMN and BPM Workflow Automation Platform.md
+BA Skills/Featmap - User Story Mapping.md
+BA Skills/OSRMT - Open Source Requirements Management Tool.md
+BA Skills/Automated Business Analysis Workflow (n8n + AI).md
+Granola Meeting Notes/2026-03-19 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-12 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-30 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-29 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-09 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-10 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-08 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-11 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-22 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-23 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-26 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-20 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-25 GitHub BA Tool.md
+Granola Meeting Notes/2026-04-03 GitHub BA Tool.md
+Granola Meeting Notes/2026-03-21 GitHub BA Tool.md
+Granola Meeting Notes/Newsletters/2026-03-23 AI Newsletter.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-03.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-03-29.md
+Granola Meeting Notes/Newsletters/2026-03-27 AI Newsletter.md
+Granola Meeting Notes/Newsletters/2026-03-19 AI Newsletter.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-02.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-09.md
+Granola Meeting Notes/Newsletters/2026-03-22 AI Newsletter.md
+Granola Meeting Notes/Newsletters/2026-03-17 AI Newsletter.md
+Granola Meeting Notes/Newsletters/2026-03-26 AI Newsletter.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-08.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-03-30.md
+Granola Meeting Notes/Newsletters/2026-03-21 AI Newsletter.md
+Granola Meeting Notes/Newsletters/2026-03-25 AI Newsletter.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-03-31.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-01.md
+Granola Meeting Notes/Newsletters/BFSI-AI-Newsletter-2026-04-10.md
+Granola Meeting Notes/Newsletters/2026-03-24 AI Newsletter.md
+Granola Meeting Notes/Projects/FlexCube Brazil Payments.md
+Granola Meeting Notes/Projects/Amcar Integration.md
+Granola Meeting Notes/Projects/TRL Upgrade.md
+Granola Meeting Notes/Projects/PI Planning and Operations.md
+Granola Meeting Notes/Projects/QFI-FlexCube Integration.md
+Granola Meeting Notes/Projects/ECS Plus Partner Integration.md
+Granola Meeting Notes/Projects/Genesis Release Planning.md
+Granola Meeting Notes/Projects/GL Reclassification.md
+Granola Meeting Notes/Meetings/2026-02-13 FlexCube Consolidated Posting and Earmarking Workflow.md
+Granola Meeting Notes/Meetings/2026-02-25 TRL Upgrade Planning for Brazil and Argentina.md
+Granola Meeting Notes/Meetings/2026-02-26 Brazil Cash Account Configuration and UAT Testing.md
+Granola Meeting Notes/Meetings/2026-03-03 Genesis Project Timeline Realignment for July Release.md
+Granola Meeting Notes/Meetings/2026-02-06 Investigating Earmark and Transaction Flow GCCS vs C Core.md
+Granola Meeting Notes/Meetings/2026-03-09 RCO Change Implementation Impact Assessment.md
+Granola Meeting Notes/Meetings/2026-02-12 Green Zone Booking Capability Review.md
+Granola Meeting Notes/Meetings/2026-03-26 Oracle to Citi Transition Planning and Product Release Schedule.md
+Granola Meeting Notes/Meetings/2026-03-20 Clarifications on Earmarking and Release Request Process for GLS.md
+Granola Meeting Notes/Meetings/2026-03-30 Customer Name Special Character Issue and H1B Discussion.md
+Granola Meeting Notes/Meetings/2026-02-26 Troubleshooting Unresponsive Call Coordination.md
+Granola Meeting Notes/Meetings/2026-02-10 Runbook Automation and Archival Strategy for PI 19.md
+Granola Meeting Notes/Meetings/2026-03-30 H1B Lottery and Citi Compensation Package.md
+Granola Meeting Notes/Meetings/2026-03-10 Account Creation Configuration for eflow UAT.md
+Granola Meeting Notes/Meetings/2026-04-01 Float Account Payments Approach for Brazil Onboarding.md
+Granola Meeting Notes/Meetings/2026-02-12 JTF Onboarding Configuration and User Role Mapping.md
+Granola Meeting Notes/Meetings/2026-02-12 Brazil Transaction Model and GO Code Setup with ECS Plus.md
+Granola Meeting Notes/Meetings/2026-04-02 Partial Earmark Process for Argentina and Brazil Banking Systems.md
+Granola Meeting Notes/Meetings/2026-02-13 Transaction Response API Details for CIP Integration.md
+Granola Meeting Notes/Meetings/2026-02-25 Brazil Account Mapping Feed Requirements with Amcar.md
+Granola Meeting Notes/Meetings/2026-03-02 Sprint Retro and Project Timeline Alignment for LAC4 and Brazil.md
+Granola Meeting Notes/Meetings/2026-03-10 Float Account Mapping Configuration Review.md
+Granola Meeting Notes/Meetings/2026-03-20 FlexCube and SecCor Integration GL Handoffs and Earmarking Workflow.md
+Granola Meeting Notes/Meetings/2026-02-13 Map Gap Document Review for Loan Product Mapping.md
+Granola Meeting Notes/Meetings/2026-02-26 Interim GL and Account Class Reclassification Strategy.md
+Granola Meeting Notes/Meetings/2026-04-08 JSON Data Mapping for Payment Hub Integration.md
+Granola Meeting Notes/Meetings/2026-04-08 Troubleshooting Payment to Cards Transaction.md
+Granola Meeting Notes/Meetings/2026-03-10 New Note.md
+Granola Meeting Notes/Meetings/2026-03-02 UAT Deployment Approval for ECS Plus Partner Services.md
+Granola Meeting Notes/Meetings/2026-03-06 QFI and FlexCube Integration Phase One.md
+Granola Meeting Notes/Meetings/2026-03-09 JITF Partner Testing.md
+Granola Meeting Notes/Meetings/2026-02-10 Amcar Float Account File Mapping Approaches Review.md
+Granola Meeting Notes/Meetings/2026-02-12 FlexCube Capacity Planning for Brazil Outgoing Transactions.md
+Granola Meeting Notes/Meetings/2026-02-12 Brazil ECS Plus Testing Timeline and Account Class Challenges.md
+Granola Meeting Notes/Meetings/2026-02-11 Brazil Flex Market Seven Day Sweeps Implementation.md
+AI Newsletter/2026-04-28.md
+AI Newsletter/2026-04-27.md
+AI Newsletter/2026-04-13.md
+AI Newsletter/2026-04-17.md
+AI Newsletter/2026-04-23.md
+AI Newsletter/2026-04-16.md
+AI Newsletter/2026-04-22.md
+AI Newsletter/2026-04-26.md
+AI Newsletter/2026-04-15.md
+AI Newsletter/2026-04-25.md
+AI Newsletter/2026-04-24.md
+AI Newsletter/2026-04-14.md
+AI Newsletter/2026-04-20.md

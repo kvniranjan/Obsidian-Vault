@@ -1,0 +1,22 @@
+Granola Meeting Notes/Meetings/2026-03-30 Customer Name Special Character Issue and H1B Discussion.md
+Granola Meeting Notes/Meetings/2026-02-26 Troubleshooting Unresponsive Call Coordination.md
+Granola Meeting Notes/Meetings/2026-02-10 Runbook Automation and Archival Strategy for PI 19.md
+Granola Meeting Notes/Meetings/2026-03-30 H1B Lottery and Citi Compensation Package.md
+Granola Meeting Notes/Meetings/2026-03-10 Account Creation Configuration for eflow UAT.md
+Granola Meeting Notes/Meetings/2026-04-01 Float Account Payments Approach for Brazil Onboarding.md
+Granola Meeting Notes/Meetings/2026-02-12 JTF Onboarding Configuration and User Role Mapping.md
+Granola Meeting Notes/Meetings/2026-02-12 Brazil Transaction Model and GO Code Setup with ECS Plus.md
+Granola Meeting Notes/Meetings/2026-04-02 Partial Earmark Process for Argentina and Brazil Banking Systems.md
+Granola Meeting Notes/Meetings/2026-02-13 Transaction Response API Details for CIP Integration.md
+Granola Meeting Notes/Meetings/2026-02-25 Brazil Account Mapping Feed Requirements with Amcar.md
+Granola Meeting Notes/Meetings/2026-03-02 Sprint Retro and Project Timeline Alignment for LAC4 and Brazil.md
+Granola Meeting Notes/Meetings/2026-03-10 Float Account Mapping Configuration Review.md
+Granola Meeting Notes/Meetings/2026-03-20 FlexCube and SecCor Integration GL Handoffs and Earmarking Workflow.md
+Granola Meeting Notes/Meetings/2026-02-13 Map Gap Document Review for Loan Product Mapping.md
+Granola Meeting Notes/Meetings/2026-02-26 Interim GL and Account Class Reclassification Strategy.md
+Granola Meeting Notes/Meetings/2026-04-08 JSON Data Mapping for Payment Hub Integration.md
+Granola Meeting Notes/Meetings/2026-04-08 Troubleshooting Payment to Cards Transaction.md
+Granola Meeting Notes/Meetings/2026-03-10 New Note.md
+Granola Meeting Notes/Meetings/2026-03-02 UAT Deployment Approval for ECS Plus Partner Services.md
+Granola Meeting Notes/Meetings/2026-03-06 QFI and FlexCube Integration Phase One.md
+Granola Meeting Notes/Meetings/2026-03-09 JITF Partner Testing.md
