@@ -42,3 +42,4 @@ github.com/FoundationAgents/MetaGPT
 github.com/microsoft/semantic-kernel
 github.com/camunda/camunda
 github.com/florath/rmtoo
+github.com/apache/incubator-kie-drools
