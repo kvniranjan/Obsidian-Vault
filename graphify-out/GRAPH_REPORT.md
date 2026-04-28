@@ -10,38 +10,38 @@
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Community 0|Community 0]]
-- [[_COMMUNITY_Community 1|Community 1]]
-- [[_COMMUNITY_Community 2|Community 2]]
-- [[_COMMUNITY_Community 3|Community 3]]
-- [[_COMMUNITY_Community 4|Community 4]]
-- [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 9|Community 9]]
-- [[_COMMUNITY_Community 10|Community 10]]
-- [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 15|Community 15]]
-- [[_COMMUNITY_Community 16|Community 16]]
-- [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
-- [[_COMMUNITY_Community 20|Community 20]]
-- [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
-- [[_COMMUNITY_Community 23|Community 23]]
-- [[_COMMUNITY_Community 24|Community 24]]
-- [[_COMMUNITY_Community 25|Community 25]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_BPMN and Process Automation Tools|BPMN and Process Automation Tools]]
+- [[_COMMUNITY_BA AI Skills and Frameworks|BA AI Skills and Frameworks]]
+- [[_COMMUNITY_BFSI AI Governance and Insurance|BFSI AI Governance and Insurance]]
+- [[_COMMUNITY_AI Risk and Regulation|AI Risk and Regulation]]
+- [[_COMMUNITY_Agentic Commerce and Fraud|Agentic Commerce and Fraud]]
+- [[_COMMUNITY_Agentic Payments and FlexCube Projects|Agentic Payments and FlexCube Projects]]
+- [[_COMMUNITY_BA Tool Discovery|BA Tool Discovery]]
+- [[_COMMUNITY_ECS Plus Integration|ECS Plus Integration]]
+- [[_COMMUNITY_FlexCube Posting and Earmarking|FlexCube Posting and Earmarking]]
+- [[_COMMUNITY_AI Tech and Payment Standards|AI Tech and Payment Standards]]
+- [[_COMMUNITY_Brazil Banking Implementation|Brazil Banking Implementation]]
+- [[_COMMUNITY_AI Regulation and Insurance|AI Regulation and Insurance]]
+- [[_COMMUNITY_GL and System Integration|GL and System Integration]]
+- [[_COMMUNITY_Release and Transition Planning|Release and Transition Planning]]
+- [[_COMMUNITY_Payments Standards and QFI|Payments Standards and QFI]]
+- [[_COMMUNITY_Copilot Web Clipping Prompts|Copilot Web Clipping Prompts]]
+- [[_COMMUNITY_Analytics Tool Discovery|Analytics Tool Discovery]]
+- [[_COMMUNITY_Diagramming Tool Discovery|Diagramming Tool Discovery]]
+- [[_COMMUNITY_PI Planning and Automation|PI Planning and Automation]]
+- [[_COMMUNITY_Amcar Float Account Approaches|Amcar Float Account Approaches]]
+- [[_COMMUNITY_Social Media Writing Prompts|Social Media Writing Prompts]]
+- [[_COMMUNITY_Content Length Prompts|Content Length Prompts]]
+- [[_COMMUNITY_TRL and Loan Product Mapping|TRL and Loan Product Mapping]]
+- [[_COMMUNITY_Simplification Prompts|Simplification Prompts]]
+- [[_COMMUNITY_Genesis Release Planning|Genesis Release Planning]]
+- [[_COMMUNITY_Grammar Fix Prompt|Grammar Fix Prompt]]
+- [[_COMMUNITY_Translation Prompt|Translation Prompt]]
+- [[_COMMUNITY_Emojify Prompt|Emojify Prompt]]
+- [[_COMMUNITY_Table of Contents Prompt|Table of Contents Prompt]]
+- [[_COMMUNITY_Remove URLs Prompt|Remove URLs Prompt]]
+- [[_COMMUNITY_Glossary Generation Prompt|Glossary Generation Prompt]]
+- [[_COMMUNITY_Troubleshooting Meeting|Troubleshooting Meeting]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Semantic Kernel - Microsoft Enterprise AI Agent SDK` - 16 edges
@@ -89,164 +89,164 @@
 
 ## Communities
 
-### Community 0 - "Community 0"
+### Community 0 - "BPMN and Process Automation Tools"
 Cohesion: 0.07
 Nodes (55): BPMN 2.0 Standard, bpmn-js Library, dmn-js Library, bpmn.io Web Modeler, DMN Decision Tables in Camunda, Camunda Operate (Monitoring), Camunda Optimize (Analytics), Camunda BPMN Process Orchestration Platform (+47 more)
 
-### Community 1 - "Community 1"
+### Community 1 - "BA AI Skills and Frameworks"
 Cohesion: 0.07
 Nodes (44): Agentic RAG (Retrieval-Augmented Generation), Azure OpenAI Integration, Business Analysis Skill Category, BABOK-Aligned Stakeholder Identification, BPMN Assistant (LLM-Powered), Natural Language to BPMN Generation, BPMN (Business Process Model and Notation), BPMN 2.0 XML Export (+36 more)
 
-### Community 2 - "Community 2"
+### Community 2 - "BFSI AI Governance and Insurance"
 Cohesion: 0.06
 Nodes (39): AI Governance in Financial Services, AI in Insurance Prior Authorization, AI Skills Gap in Investment Banking, Armilla AI Liability Coverage at Lloyd's of London, AI Impact on Banking Jobs Survey, Bank of England FPC AI Systemic Risk Assessment, Bank of America AI Agents for Financial Advisors, BofA $15B Insurance Commission AI Disintermediation Risk (+31 more)
 
-### Community 3 - "Community 3"
+### Community 3 - "AI Risk and Regulation"
 Cohesion: 0.06
 Nodes (39): AI Agents Going Rogue Banking Risk, AI Drives 76% of Cyberattacks Finance Second Most Targeted, Anthropic Claude Mythos AI Model, Backbase AI-Native Banking OS with Nexus and Sentinel Layers, Bank of England AI Risks in Financial System Stress Tests, Bank of England AI Systemic Risk Four Vulnerability Channels, Bank of America CTO: 90% of 213000 Employees Use AI, Bank of America Meeting Journey AI Tool for 18000 Advisors (+31 more)
 
-### Community 4 - "Community 4"
+### Community 4 - "Agentic Commerce and Fraud"
 Cohesion: 0.06
 Nodes (39): Affirm Agentic Credit Consumer Lending Model, Agentic AI Moving from Demos to Financial Services Desk Work, Agentic Commerce Forces Rethink of Card Infrastructure, AI Forcing Banks to Reopen Core Cloud Contracts, Congressional Testimony: AI-Enabled Fraud Exceeded $20B in 2025, ABA FSSCC: AI-Enabled Fraud Will Hit $40B in US by 2027, AI-Fueled Fraud Requires AI-Led Defense (Nacha Conference), Bank of Bots AI Agent Financial Infrastructure (+31 more)
 
-### Community 5 - "Community 5"
+### Community 5 - "Agentic Payments and FlexCube Projects"
 Cohesion: 0.11
 Nodes (32): Agentic AI-Enabled Fraud Risk, Agentic AI in Payments, AI Agent Decision Rights and Governance in Banking, Amcar Integration, Blind Key - Maker/Checker Field Masking for EPIC Countries, C900 Credit Line / DOL System, DAG Approval Process, FlexCube Brazil Payments Project (+24 more)
 
-### Community 6 - "Community 6"
+### Community 6 - "BA Tool Discovery"
 Cohesion: 0.1
 Nodes (27): BPMN Assistant - LLM-Powered BPMN Diagram Tool, Log4brains - Architecture Decision Record Tool, MeetingMind - AI Meeting Analysis App, Penpot - Open-Source Design & Prototyping Platform, Plane - Open-Source Project Management Tool, Ploi Roadmap - Self-Hostable Product Roadmapping Tool, PM4Py - Python Process Mining Library, StoryMachine - PRD to User Stories CLI Tool (+19 more)
 
-### Community 7 - "Community 7"
+### Community 7 - "ECS Plus Integration"
 Cohesion: 0.16
 Nodes (19): CIP Integration for Transaction Response Handling, ECS Plus JSON Kafka EOD/SOD Notification Services, ECS Plus Partner Integration, eflow UAT - Account Creation Integration, GO Code - Brazil Traffic Routing (replaces 9988 MIS code), Golden Gate Database Connectivity, JTF Onboarding Configuration (ECS Plus), Payment to Cards Transaction Identifier (+11 more)
 
-### Community 8 - "Community 8"
+### Community 8 - "FlexCube Posting and Earmarking"
 Cohesion: 0.19
 Nodes (15): Amcar Float Account Feed Mapping, Book-to-Book 4-Leg Posting Structure, FlexCube Consolidated Posting, FlexCube Earmarking Workflow, Express Flow Earmark Release Process for GLS, GCCS vs C Core Transaction Flow, Green Zone Booking, RCO April 11th System Change (+7 more)
 
-### Community 9 - "Community 9"
+### Community 9 - "AI Tech and Payment Standards"
 Cohesion: 0.14
 Nodes (14): Dapr Agents v1.0, LiteLLM Supply Chain Attack, Mistral Forge Fine-Tuning Platform, Nacha ACH Verification Rule 2026, Oracle Agentic Platform for Retail Banking, Oracle AI Agent Studio for Fusion, Oracle AI Database 26ai, Oracle Q3 FY2026 Revenue Growth and Backlog (+6 more)
 
-### Community 10 - "Community 10"
+### Community 10 - "Brazil Banking Implementation"
 Cohesion: 0.16
 Nodes (14): Brazil Advanced Earmarking Strategy, Brazil ECS Plus Testing Timeline and Account Class Challenges, Brazil GO Codes vs MIS Codes Configuration, PAT Template Pending Blocker, Brazil Flex Market Seven Day Sweeps Implementation, C900 Lookup Dependency, ECS Plus Partner Integration Project, FlexCube Capacity Planning for Brazil Outgoing Transactions (+6 more)
 
-### Community 11 - "Community 11"
+### Community 11 - "AI Regulation and Insurance"
 Cohesion: 0.18
 Nodes (13): Agentic AI Entering Production in Insurance Underwriting, Consumer Support for AI in P&C Insurance Nearly Doubles, EU AI Act August 2026 High-Risk Deadline, Experian and Resistant AI Transaction Forensics APP Fraud Detection, FinCEN 25-Year AML Overhaul Signals Regulatory Favour for AI, Flagright AI Forensics AML Alert Resolution, Goldman Sachs Global Institute: World Models Next AI Leap, HSBC Appoints First Chief AI Officer David Rice (+5 more)
 
-### Community 12 - "Community 12"
+### Community 12 - "GL and System Integration"
 Cohesion: 0.24
 Nodes (12): EOD/SOD Notification Service (JSON via Kafka for ECS Plus), GL Reclassification Project, Interim GL Account 299 - Brazil Reclassification, Kafka JSON Transaction Model, Master Data File (MDF) Integration - SecCor to CP2, QFI-FlexCube Integration, Rationale: JSON Kafka Model for QFI Instead of APAC/EMEA DDA Approach (Brazil DB Constraints), SecCor Integration with FlexCube (+4 more)
 
-### Community 13 - "Community 13"
+### Community 13 - "Release and Transition Planning"
 Cohesion: 0.25
 Nodes (11): Genesis Migration Delays (June to July), GL Interim Account 299 for Toxic Combination Fix, Oracle to Citi FlexCube Acquisition, TRL Null Value Population for Evergreen Accounts, Meeting: TRL Upgrade Planning for Brazil and Argentina (2026-02-25), Meeting: Genesis Project Timeline Realignment for July Release (2026-03-03), Meeting: Oracle to Citi Transition Planning and Product Release Schedule (2026-03-26), Genesis Release Planning Project (+3 more)
 
-### Community 14 - "Community 14"
+### Community 14 - "Payments Standards and QFI"
 Cohesion: 0.32
 Nodes (8): ECS Plus Partner Integration, 2026 Nacha ACH Pre-Transaction Validation Mandate, QFI-FlexCube Integration, Qwen 3.5 Small On-Device AI (9B Parameters), Tokenised Deposits with AI for Real-Time Payments, Visa Agentic Ready Programme, AI Newsletter 2026-03-23, AI Newsletter 2026-03-27
 
-### Community 15 - "Community 15"
+### Community 15 - "Copilot Web Clipping Prompts"
 Cohesion: 0.6
 Nodes (5): Clip Web Page Prompt, Clip YouTube Transcript Prompt, Mermaid Mindmap Syntax, Obsidian Copilot, Obsidian Web Clipper
 
-### Community 16 - "Community 16"
+### Community 16 - "Analytics Tool Discovery"
 Cohesion: 0.4
 Nodes (5): BA Tool Discovery: Metabase (2026-03-30), BA Tool Discovery: WrenAI (2026-04-09), Metabase Open Source BI Platform, WrenAI Semantic Layer (MDL), WrenAI Generative BI Natural Language Query
 
-### Community 17 - "Community 17"
+### Community 17 - "Diagramming Tool Discovery"
 Cohesion: 0.5
 Nodes (4): Excalidraw Virtual Whiteboard, Freeplane Mind Mapping and Knowledge Tool, BA Tool Discovery: Freeplane (2026-04-10), BA Tool Discovery: Excalidraw (2026-04-12)
 
-### Community 18 - "Community 18"
+### Community 18 - "PI Planning and Automation"
 Cohesion: 0.67
 Nodes (4): Data Archival and Purging Initiative - PI 19, PI Planning and Operations, Runbook Automation - PI 19 Operations, Runbook Automation and Archival Strategy for PI 19
 
-### Community 19 - "Community 19"
+### Community 19 - "Amcar Float Account Approaches"
 Cohesion: 0.67
 Nodes (4): Approach 1: Enhance Existing Amcar Handoff File, Approach 2: Reuse Payment Hub File for Amcar, Amcar Float Account File Mapping Approaches Review, Amcar Integration Project
 
-### Community 20 - "Community 20"
+### Community 20 - "Social Media Writing Prompts"
 Cohesion: 1.0
 Nodes (3): Copilot Custom Prompts Collection, Rewrite as Tweet Prompt, Rewrite as Tweet Thread Prompt
 
-### Community 21 - "Community 21"
+### Community 21 - "Content Length Prompts"
 Cohesion: 0.67
 Nodes (3): Make Longer Prompt, Make Shorter Prompt, Summarize Prompt
 
-### Community 22 - "Community 22"
+### Community 22 - "TRL and Loan Product Mapping"
 Cohesion: 1.0
 Nodes (3): Map Gap Document - Loan Product Mapping, TRL Upgrade Project, Map Gap Document Review for Loan Product Mapping
 
-### Community 23 - "Community 23"
+### Community 23 - "Simplification Prompts"
 Cohesion: 1.0
 Nodes (2): Explain Like I Am 5 Prompt, Simplify Prompt
 
-### Community 24 - "Community 24"
+### Community 24 - "Genesis Release Planning"
 Cohesion: 1.0
 Nodes (2): Genesis Release Planning, Sprint Retro and Project Timeline Alignment for LAC4 and Brazil
 
-### Community 25 - "Community 25"
+### Community 25 - "Grammar Fix Prompt"
 Cohesion: 1.0
 Nodes (1): Fix Grammar and Spelling Prompt
 
-### Community 26 - "Community 26"
+### Community 26 - "Translation Prompt"
 Cohesion: 1.0
 Nodes (1): Translate to Chinese Prompt
 
-### Community 27 - "Community 27"
+### Community 27 - "Emojify Prompt"
 Cohesion: 1.0
 Nodes (1): Emojify Prompt
 
-### Community 28 - "Community 28"
+### Community 28 - "Table of Contents Prompt"
 Cohesion: 1.0
 Nodes (1): Generate Table of Contents Prompt
 
-### Community 29 - "Community 29"
+### Community 29 - "Remove URLs Prompt"
 Cohesion: 1.0
 Nodes (1): Remove URLs Prompt
 
-### Community 30 - "Community 30"
+### Community 30 - "Glossary Generation Prompt"
 Cohesion: 1.0
 Nodes (1): Generate Glossary Prompt
 
-### Community 31 - "Community 31"
+### Community 31 - "Troubleshooting Meeting"
 Cohesion: 1.0
 Nodes (1): Troubleshooting Unresponsive Call Coordination
 
 ## Knowledge Gaps
 - **144 isolated node(s):** `Fix Grammar and Spelling Prompt`, `Make Longer Prompt`, `Explain Like I Am 5 Prompt`, `Translate to Chinese Prompt`, `Simplify Prompt` (+139 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 23`** (2 nodes): `Explain Like I Am 5 Prompt`, `Simplify Prompt`
+- **Thin community `Simplification Prompts`** (2 nodes): `Explain Like I Am 5 Prompt`, `Simplify Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 24`** (2 nodes): `Genesis Release Planning`, `Sprint Retro and Project Timeline Alignment for LAC4 and Brazil`
+- **Thin community `Genesis Release Planning`** (2 nodes): `Genesis Release Planning`, `Sprint Retro and Project Timeline Alignment for LAC4 and Brazil`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (1 nodes): `Fix Grammar and Spelling Prompt`
+- **Thin community `Grammar Fix Prompt`** (1 nodes): `Fix Grammar and Spelling Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (1 nodes): `Translate to Chinese Prompt`
+- **Thin community `Translation Prompt`** (1 nodes): `Translate to Chinese Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (1 nodes): `Emojify Prompt`
+- **Thin community `Emojify Prompt`** (1 nodes): `Emojify Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `Generate Table of Contents Prompt`
+- **Thin community `Table of Contents Prompt`** (1 nodes): `Generate Table of Contents Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `Remove URLs Prompt`
+- **Thin community `Remove URLs Prompt`** (1 nodes): `Remove URLs Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `Generate Glossary Prompt`
+- **Thin community `Glossary Generation Prompt`** (1 nodes): `Generate Glossary Prompt`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 31`** (1 nodes): `Troubleshooting Unresponsive Call Coordination`
+- **Thin community `Troubleshooting Meeting`** (1 nodes): `Troubleshooting Unresponsive Call Coordination`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `FlexCube Brazil Payments Project` connect `Community 5` to `Community 12`, `Community 14`, `Community 7`?**
+- **Why does `FlexCube Brazil Payments Project` connect `Agentic Payments and FlexCube Projects` to `GL and System Integration`, `Payments Standards and QFI`, `ECS Plus Integration`?**
   _High betweenness centrality (0.068) - this node is a cross-community bridge._
-- **Why does `ECS Plus Partner Integration` connect `Community 7` to `Community 12`?**
+- **Why does `ECS Plus Partner Integration` connect `ECS Plus Integration` to `GL and System Integration`?**
   _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `Troubleshooting Payment to Cards Transaction` connect `Community 7` to `Community 5`?**
+- **Why does `Troubleshooting Payment to Cards Transaction` connect `ECS Plus Integration` to `Agentic Payments and FlexCube Projects`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `Semantic Kernel - Microsoft Enterprise AI Agent SDK` (e.g. with `LangGraph - AI Agent Orchestration Framework` and `CrewAI - Role-Based Multi-Agent Orchestration Framework`) actually correct?**
   _`Semantic Kernel - Microsoft Enterprise AI Agent SDK` has 2 INFERRED edges - model-reasoned connections that need verification._
