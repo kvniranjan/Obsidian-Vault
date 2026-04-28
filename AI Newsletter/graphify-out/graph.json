@@ -1,7 +1,57 @@
 {
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "agentic_payments_trust_stack",
+        "label": "Agentic Payments Trust Stack",
+        "nodes": [
+          "2026_04_15_visa_intelligent_commerce_connect",
+          "2026_04_22_fime_fact_trust_layer",
+          "2026_04_27_agentic_commerce_card_infrastructure",
+          "2026_04_28_delegated_bot_permission"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.88,
+        "source_file": "multiple"
+      },
+      {
+        "id": "mythos_systemic_cyber_response",
+        "label": "Mythos Systemic Cyber Response",
+        "nodes": [
+          "2026_04_15_bessent_powell_mythos_summit",
+          "2026_04_16_project_glasswing_mythos_access",
+          "2026_04_20_mythos_defensive_cyber_warning",
+          "2026_04_22_boe_ai_systemic_risk_testing",
+          "2026_04_26_hkma_mas_ai_cyber_resilience"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "multiple"
+      },
+      {
+        "id": "aml_compliance_automation_wave",
+        "label": "AML Compliance Automation Wave",
+        "nodes": [
+          "2026_04_13_td_bank_aml_remediation_ai",
+          "2026_04_13_federated_pkyc",
+          "2026_04_13_ai_forensics_alert_backlog",
+          "2026_04_14_oracle_lucinity_ai_investigator",
+          "2026_04_24_fincen_ai_aml_supervisory_credit",
+          "2026_04_27_smartsearch_compliance_automation_gap"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.87,
+        "source_file": "multiple"
+      }
+    ]
+  },
   "nodes": [
     {
-      "id": "2026_04_28_cambridge_ai_adoption_gap",
       "label": "Cambridge AI Adoption Gap",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -9,10 +59,12 @@
       "source_url": "https://www.jbs.cam.ac.uk/2026/report-finds-uneven-ai-adoption-in-financial-services/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_cambridge_ai_adoption_gap",
+      "community": 0,
+      "norm_label": "cambridge ai adoption gap"
     },
     {
-      "id": "2026_04_28_regulators_lag_ai_supervision",
       "label": "Regulators Lag AI Supervision",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -20,10 +72,12 @@
       "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/finance-industry-surpasses-regulators-in-ai-adoption/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_regulators_lag_ai_supervision",
+      "community": 0,
+      "norm_label": "regulators lag ai supervision"
     },
     {
-      "id": "2026_04_28_q2_realtime_account_takeover_controls",
       "label": "Q2 Real-Time Account Takeover Controls",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -31,10 +85,12 @@
       "source_url": "https://investors.q2.com/news/investor-news/news-details/2026/Q2-Enhances-Account-Takeover-Protection-With-AI-Enabled-Detection-and-Real-Time-Response-Capabilities/default.aspx",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_q2_realtime_account_takeover_controls",
+      "community": 3,
+      "norm_label": "q2 real-time account takeover controls"
     },
     {
-      "id": "2026_04_28_core_cloud_contract_rewrite",
       "label": "AI Core Cloud Contract Rewrite",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -42,10 +98,12 @@
       "source_url": "https://www.pymnts.com/news/banking/2026/everything-is-ai-now-and-its-reshaping-banking-core-cloud-contracts/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_core_cloud_contract_rewrite",
+      "community": 5,
+      "norm_label": "ai core cloud contract rewrite"
     },
     {
-      "id": "2026_04_28_ai_led_fraud_defense",
       "label": "AI-Led Fraud Defense",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -53,10 +111,12 @@
       "source_url": "https://www.paymentsdive.com/news/harnessing-ai-to-fight-fraud/818676/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_ai_led_fraud_defense",
+      "community": 3,
+      "norm_label": "ai-led fraud defense"
     },
     {
-      "id": "2026_04_28_delegated_bot_permission",
       "label": "Delegated Bot Permission",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -64,10 +124,12 @@
       "source_url": "https://www.pymnts.com/data/2026/banks-need-to-know-when-the-bot-has-permission/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_delegated_bot_permission",
+      "community": 6,
+      "norm_label": "delegated bot permission"
     },
     {
-      "id": "2026_04_28_cftc_ai_crypto_surveillance",
       "label": "CFTC AI Crypto Surveillance",
       "file_type": "document",
       "source_file": "2026-04-28.md",
@@ -75,10 +137,12 @@
       "source_url": "https://cryptobriefing.com/cftc-ai-crypto-registration-tools",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_28_cftc_ai_crypto_surveillance",
+      "community": 0,
+      "norm_label": "cftc ai crypto surveillance"
     },
     {
-      "id": "2026_04_27_customers_bank_openai_operating_model",
       "label": "Customers Bank OpenAI Operating Model",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -86,10 +150,12 @@
       "source_url": "https://www.customersbank.com/investor-relations/press-releases/press-release/Customers-Bank-Announces-Strategic-Collaboration-with-OpenAI-to-Redefine-the-Commercial-Banking-Operating-Model-1778",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_customers_bank_openai_operating_model",
+      "community": 2,
+      "norm_label": "customers bank openai operating model"
     },
     {
-      "id": "2026_04_27_agentic_desk_work",
       "label": "Agentic AI Desk Work",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -97,10 +163,12 @@
       "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-agents-move-from-demo-day-to-desk-work/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_agentic_desk_work",
+      "community": 2,
+      "norm_label": "agentic ai desk work"
     },
     {
-      "id": "2026_04_27_affirm_agentic_credit",
       "label": "Affirm Agentic Credit",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -108,10 +176,12 @@
       "source_url": "https://www.pymnts.com/consumer-finance/2026/affirm-agentic-credit-rewrites-the-rules-of-consumer-lending/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_affirm_agentic_credit",
+      "community": 2,
+      "norm_label": "affirm agentic credit"
     },
     {
-      "id": "2026_04_27_agentic_commerce_card_infrastructure",
       "label": "Agentic Commerce Card Infrastructure",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -119,10 +189,12 @@
       "source_url": "https://www.pymnts.com/news/payments-innovation/2026/agentic-commerce-forces-a-rethink-of-card-infrastructure/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_agentic_commerce_card_infrastructure",
+      "community": 6,
+      "norm_label": "agentic commerce card infrastructure"
     },
     {
-      "id": "2026_04_27_green_dot_data_moat_speed",
       "label": "Green Dot Data Moat Is Speed",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -130,10 +202,12 @@
       "source_url": "https://www.pymnts.com/data/2026/green-dot-says-the-new-data-moat-is-speed/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_green_dot_data_moat_speed",
+      "community": 3,
+      "norm_label": "green dot data moat is speed"
     },
     {
-      "id": "2026_04_27_smartsearch_compliance_automation_gap",
       "label": "SmartSearch Compliance Automation Gap",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -141,10 +215,12 @@
       "source_url": "https://fintech.global/2026/04/27/the-true-cost-of-poor-aml-compliance-in-2026/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_smartsearch_compliance_automation_gap",
+      "community": 2,
+      "norm_label": "smartsearch compliance automation gap"
     },
     {
-      "id": "2026_04_27_google_agentic_platform_governance",
       "label": "Google Agentic Platform Governance",
       "file_type": "document",
       "source_file": "2026-04-27.md",
@@ -152,10 +228,12 @@
       "source_url": "https://www.nextplatform.com/ai/2026/04/27/the-genai-battle-shifts-from-frontier-models-to-agentic-platforms/5218897",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_27_google_agentic_platform_governance",
+      "community": 5,
+      "norm_label": "google agentic platform governance"
     },
     {
-      "id": "2026_04_26_citi_sky_ai_wealth_avatar",
       "label": "Citi Sky AI Wealth Avatar",
       "file_type": "document",
       "source_file": "2026-04-26.md",
@@ -163,10 +241,12 @@
       "source_url": "https://www.prnewswire.com/news-releases/citi-wealth-unveils-citi-sky--an-ai-powered-member-of-the-citi-wealth-team-built-using-google-cloud-and-google-deepmind-technologies-302749822.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_26_citi_sky_ai_wealth_avatar",
+      "community": 1,
+      "norm_label": "citi sky ai wealth avatar"
     },
     {
-      "id": "2026_04_26_sr_26_2_model_risk_scope_gap",
       "label": "SR 26-2 Model Risk Scope Gap",
       "file_type": "document",
       "source_file": "2026-04-26.md",
@@ -174,10 +254,12 @@
       "source_url": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-29.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_26_sr_26_2_model_risk_scope_gap",
+      "community": 0,
+      "norm_label": "sr 26-2 model risk scope gap"
     },
     {
-      "id": "2026_04_26_ai_enabled_fraud_20b",
       "label": "AI-Enabled Fraud Above $20B",
       "file_type": "document",
       "source_file": "2026-04-26.md",
@@ -185,10 +267,12 @@
       "source_url": "https://bpi.com/bpinsights-april-25-2026/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_26_ai_enabled_fraud_20b",
+      "community": 3,
+      "norm_label": "ai-enabled fraud above $20b"
     },
     {
-      "id": "2026_04_26_hkma_mas_ai_cyber_resilience",
       "label": "HKMA MAS AI Cyber Resilience",
       "file_type": "document",
       "source_file": "2026-04-26.md",
@@ -196,10 +280,12 @@
       "source_url": "https://www.bloomberg.com/news/articles/2026-04-20/singapore-urges-banks-to-fix-security-gaps-amid-mythos-ai-fears",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_26_hkma_mas_ai_cyber_resilience",
+      "community": 4,
+      "norm_label": "hkma mas ai cyber resilience"
     },
     {
-      "id": "2026_04_26_bank_of_bots_agent_native_finance",
       "label": "Bank of Bots Agent-Native Finance",
       "file_type": "document",
       "source_file": "2026-04-26.md",
@@ -207,10 +293,12 @@
       "source_url": "https://thepaypers.com/fintech/news/bank-of-bots-emerges-from-stealth-with-financial-infrastructure-for-ai-agents",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_26_bank_of_bots_agent_native_finance",
+      "community": 6,
+      "norm_label": "bank of bots agent-native finance"
     },
     {
-      "id": "2026_04_25_consumer_ai_financial_advice_adoption",
       "label": "Consumer AI Financial Advice Adoption",
       "file_type": "document",
       "source_file": "2026-04-25.md",
@@ -218,10 +306,12 @@
       "source_url": "https://www.ey.com/en_gl/newsroom/2026/04/nearly-half-of-global-consumers-now-use-ai-to-guide-savings-and-investment-decisions",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_25_consumer_ai_financial_advice_adoption",
+      "community": 1,
+      "norm_label": "consumer ai financial advice adoption"
     },
     {
-      "id": "2026_04_25_chatgpt_insurance_distribution",
       "label": "ChatGPT Insurance Distribution",
       "file_type": "document",
       "source_file": "2026-04-25.md",
@@ -229,10 +319,12 @@
       "source_url": "https://www.prnewswire.com/news-releases/simply-business-launches-insurance-app-for-small-businesses-in-chatgpt-in-the-us-302750955.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_25_chatgpt_insurance_distribution",
+      "community": 1,
+      "norm_label": "chatgpt insurance distribution"
     },
     {
-      "id": "2026_04_25_commercial_underwriting_data_prefill",
       "label": "Commercial Underwriting Data Prefill",
       "file_type": "document",
       "source_file": "2026-04-25.md",
@@ -240,10 +332,12 @@
       "source_url": "https://www.prnewswire.com/news-releases/cytora-and-lexisnexis-risk-solutions-announce-strategic-relationship-to-enhance-risk-selection-and-automation-for-us-commercial-insurers-302750794.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_25_commercial_underwriting_data_prefill",
+      "community": 0,
+      "norm_label": "commercial underwriting data prefill"
     },
     {
-      "id": "2026_04_25_taiwan_sovereign_financial_ai",
       "label": "Taiwan Sovereign Financial AI",
       "file_type": "document",
       "source_file": "2026-04-25.md",
@@ -251,10 +345,12 @@
       "source_url": "https://www.bloomberg.com/news/articles/2026-04-23/taiwan-banks-to-build-own-ai-model-to-rival-global-giants",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_25_taiwan_sovereign_financial_ai",
+      "community": 5,
+      "norm_label": "taiwan sovereign financial ai"
     },
     {
-      "id": "2026_04_24_transaction_forensics_app_fraud",
       "label": "Transaction Forensics APP Fraud",
       "file_type": "document",
       "source_file": "2026-04-24.md",
@@ -262,10 +358,12 @@
       "source_url": "https://www.experianplc.com/newsroom/press-releases/2026/experian-launches-ai-powered--transaction-forensics--to-bolster-",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_24_transaction_forensics_app_fraud",
+      "community": 3,
+      "norm_label": "transaction forensics app fraud"
     },
     {
-      "id": "2026_04_24_fincen_ai_aml_supervisory_credit",
       "label": "FinCEN AI AML Supervisory Credit",
       "file_type": "document",
       "source_file": "2026-04-24.md",
@@ -273,10 +371,12 @@
       "source_url": "https://fintech.global/2026/04/23/fincen-reform-puts-ai-at-the-heart-of-aml-cft-compliance/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "community": 2,
+      "norm_label": "fincen ai aml supervisory credit"
     },
     {
-      "id": "2026_04_24_ai_cyber_insurance_sublimits",
       "label": "AI Cyber Insurance Sublimits",
       "file_type": "document",
       "source_file": "2026-04-24.md",
@@ -284,10 +384,12 @@
       "source_url": "https://www.lifeinsuranceinternational.com/news/insurers-cap-ai-related-payouts/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_24_ai_cyber_insurance_sublimits",
+      "community": 7,
+      "norm_label": "ai cyber insurance sublimits"
     },
     {
-      "id": "2026_04_24_insurance_ai_legitimacy_boundary",
       "label": "Insurance AI Legitimacy Boundary",
       "file_type": "document",
       "source_file": "2026-04-24.md",
@@ -295,10 +397,12 @@
       "source_url": "https://www.businesswire.com/news/home/20260421860636/en/Consumer-Support-for-AI-in-PC-Insurance-Nearly-Doubles-in-2026-Insurity-Survey-Finds",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "community": 0,
+      "norm_label": "insurance ai legitimacy boundary"
     },
     {
-      "id": "2026_04_24_goldman_world_models",
       "label": "Goldman Sachs World Models",
       "file_type": "document",
       "source_file": "2026-04-24.md",
@@ -306,10 +410,12 @@
       "source_url": "https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_24_goldman_world_models",
+      "community": 4,
+      "norm_label": "goldman sachs world models"
     },
     {
-      "id": "2026_04_23_fca_ai_live_testing",
       "label": "FCA AI Live Testing",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -317,10 +423,12 @@
       "source_url": "https://www.fca.org.uk/news/press-releases/fca-announces-second-cohort-ai-live-testing",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_fca_ai_live_testing",
+      "community": 0,
+      "norm_label": "fca ai live testing"
     },
     {
-      "id": "2026_04_23_backbase_ai_banking_os",
       "label": "Backbase AI-Native Banking OS",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -328,10 +436,12 @@
       "source_url": "https://ffnews.com/newsarticle/fintech/backbase-launches-the-ai-native-banking-os-defining-a-new-category-for-agentic-banking",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_backbase_ai_banking_os",
+      "community": 5,
+      "norm_label": "backbase ai-native banking os"
     },
     {
-      "id": "2026_04_23_wall_street_ai_job_cuts",
       "label": "Wall Street AI Job Cuts",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -339,10 +449,12 @@
       "source_url": "https://www.thestar.com.my/tech/tech-news/2026/04/23/job-cuts-driven-by-ai-are-rising-on-wall-street",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_wall_street_ai_job_cuts",
+      "community": 1,
+      "norm_label": "wall street ai job cuts"
     },
     {
-      "id": "2026_04_23_piraeus_centralized_ai_hub",
       "label": "Piraeus Centralized AI Hub",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -350,10 +462,12 @@
       "source_url": "https://ibsintelligence.com/ibsi-news/piraeus-bank-partners-with-accenture-to-launch-ai-hub/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_piraeus_centralized_ai_hub",
+      "community": 8,
+      "norm_label": "piraeus centralized ai hub"
     },
     {
-      "id": "2026_04_23_mizuho_quantum_ai_surveillance",
       "label": "Mizuho Quantum AI Surveillance",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -361,10 +475,12 @@
       "source_url": "https://fintech.global/2026/04/23/mizuho-securities-upgrades-compliance-with-behavox-ai/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_mizuho_quantum_ai_surveillance",
+      "community": 2,
+      "norm_label": "mizuho quantum ai surveillance"
     },
     {
-      "id": "2026_04_23_claimable_ai_denial_appeals",
       "label": "Claimable AI Denial Appeals",
       "file_type": "document",
       "source_file": "2026-04-23.md",
@@ -372,10 +488,12 @@
       "source_url": "https://www.bloomberg.com/news/features/2026-04-22/ai-and-mark-cuban-among-startup-s-tools-to-fight-denied-health-care-claims",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_23_claimable_ai_denial_appeals",
+      "community": 0,
+      "norm_label": "claimable ai denial appeals"
     },
     {
-      "id": "2026_04_22_bny_digital_employees_margin_engine",
       "label": "BNY Digital Employees Margin Engine",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -383,10 +501,12 @@
       "source_url": "https://www.pymnts.com/earnings/2026/bnys-ai-strategy-signals-a-new-era-of-platform-banking/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_bny_digital_employees_margin_engine",
+      "community": 2,
+      "norm_label": "bny digital employees margin engine"
     },
     {
-      "id": "2026_04_22_fime_fact_trust_layer",
       "label": "Fime FACT Trust Layer",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -394,10 +514,12 @@
       "source_url": "https://ffnews.com/newsarticle/paytech/fime-launches-fact-the-first-trust-layer-for-agentic-commerce",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_fime_fact_trust_layer",
+      "community": 6,
+      "norm_label": "fime fact trust layer"
     },
     {
-      "id": "2026_04_22_boe_ai_systemic_risk_testing",
       "label": "Bank of England AI Systemic Risk Testing",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -405,10 +527,12 @@
       "source_url": "https://www.progressiverobot.com/2026/04/18/bank-of-england-says-it-is-testing-ai-risks-to-financial-system/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_boe_ai_systemic_risk_testing",
+      "community": 4,
+      "norm_label": "bank of england ai systemic risk testing"
     },
     {
-      "id": "2026_04_22_mcp_arbitrary_code_execution_risk",
       "label": "MCP Arbitrary Code Execution Risk",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -416,10 +540,12 @@
       "source_url": "https://www.americanbanker.com/news/unpatched-ai-flaw-poses-risk-to-banking-sector",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_mcp_arbitrary_code_execution_risk",
+      "community": 5,
+      "norm_label": "mcp arbitrary code execution risk"
     },
     {
-      "id": "2026_04_22_ai_output_coverage_exclusions",
       "label": "AI Output Coverage Exclusions",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -427,10 +553,12 @@
       "source_url": "https://www.csoonline.com/article/4159292/insurance-carriers-quietly-back-away-from-covering-ai-outputs.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_ai_output_coverage_exclusions",
+      "community": 7,
+      "norm_label": "ai output coverage exclusions"
     },
     {
-      "id": "2026_04_22_morgan_stanley_ai_wealth_leverage",
       "label": "Morgan Stanley AI Wealth Leverage",
       "file_type": "document",
       "source_file": "2026-04-22.md",
@@ -438,10 +566,12 @@
       "source_url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-15-morgan-stanley-shatters-records-in-q1-2026-wealth-management-surge-and-ai-innovation-fuel-54-stock-leap",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_22_morgan_stanley_ai_wealth_leverage",
+      "community": 4,
+      "norm_label": "morgan stanley ai wealth leverage"
     },
     {
-      "id": "2026_04_20_mythos_defensive_cyber_warning",
       "label": "Mythos Defensive Cyber Warning",
       "file_type": "document",
       "source_file": "2026-04-20.md",
@@ -449,10 +579,12 @@
       "source_url": "https://www.disruptionbanking.com/2026/04/20/nsa-running-blacklisted-anthropic-ai-warning-for-uk-banks/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_20_mythos_defensive_cyber_warning",
+      "community": 4,
+      "norm_label": "mythos defensive cyber warning"
     },
     {
-      "id": "2026_04_20_ai_drives_cyberattacks",
       "label": "AI Drives Cyberattacks",
       "file_type": "document",
       "source_file": "2026-04-20.md",
@@ -460,10 +592,12 @@
       "source_url": "https://www.pymnts.com/cybersecurity/2026/banks-up-defenses-as-ai-drives-76percent-of-cyberattacks/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_20_ai_drives_cyberattacks",
+      "community": 7,
+      "norm_label": "ai drives cyberattacks"
     },
     {
-      "id": "2026_04_20_oracle_corporate_banking_agents",
       "label": "Oracle Corporate Banking Agents",
       "file_type": "document",
       "source_file": "2026-04-20.md",
@@ -471,10 +605,12 @@
       "source_url": "https://www.prnewswire.com/news-releases/oracle-financial-services-extends-agentic-ai-platform-to-corporate-banking-302738817.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_20_oracle_corporate_banking_agents",
+      "community": 2,
+      "norm_label": "oracle corporate banking agents"
     },
     {
-      "id": "2026_04_20_guidewire_pronavigator_insurance_core",
       "label": "Guidewire ProNavigator Insurance Core",
       "file_type": "document",
       "source_file": "2026-04-20.md",
@@ -482,10 +618,12 @@
       "source_url": "https://fintech.global/2026/04/20/guidewire-launches-ai-assistant-pronavigator-for-pc-insurers/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_20_guidewire_pronavigator_insurance_core",
+      "community": 0,
+      "norm_label": "guidewire pronavigator insurance core"
     },
     {
-      "id": "2026_04_20_wealth_ai_implementation_gap",
       "label": "Wealth AI Implementation Gap",
       "file_type": "document",
       "source_file": "2026-04-20.md",
@@ -493,10 +631,12 @@
       "source_url": "https://fintech.global/2026/04/17/ai-in-wealth-management-closing-the-implementation-gap/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_20_wealth_ai_implementation_gap",
+      "community": 1,
+      "norm_label": "wealth ai implementation gap"
     },
     {
-      "id": "2026_04_17_bofa_meeting_journey_ai",
       "label": "BofA Meeting Journey AI",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -504,10 +644,12 @@
       "source_url": "https://fortune.com/2026/04/16/bank-of-america-18000-financial-advisors-new-ai-tool-company-record-quarter/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_bofa_meeting_journey_ai",
+      "community": 1,
+      "norm_label": "bofa meeting journey ai"
     },
     {
-      "id": "2026_04_17_wall_street_5000_job_cuts",
       "label": "Wall Street 5000 Job Cuts",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -515,10 +657,12 @@
       "source_url": "https://www.bloomberg.com/news/articles/2026-04-15/wall-street-banks-cut-5-000-jobs-even-as-they-notched-record-profits",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_wall_street_5000_job_cuts",
+      "community": 1,
+      "norm_label": "wall street 5000 job cuts"
     },
     {
-      "id": "2026_04_17_fargo_assistant_scale",
       "label": "Wells Fargo Fargo Assistant Scale",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -526,10 +670,12 @@
       "source_url": "https://www.investing.com/news/company-news/wells-fargos-ai-assistant-fargo-surpasses-1-billion-interactions-93CH-4583153",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_fargo_assistant_scale",
+      "community": 9,
+      "norm_label": "wells fargo fargo assistant scale"
     },
     {
-      "id": "2026_04_17_fitch_ai_vulnerability_gap",
       "label": "Fitch AI Vulnerability Gap",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -537,10 +683,12 @@
       "source_url": "https://www.insurancejournal.com/news/national/2026/04/16/866064.htm",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_fitch_ai_vulnerability_gap",
+      "community": 7,
+      "norm_label": "fitch ai vulnerability gap"
     },
     {
-      "id": "2026_04_17_regtech_funding_inflection",
       "label": "RegTech Funding Inflection",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -548,10 +696,12 @@
       "source_url": "https://fintech.global/2026/04/16/nine-figure-raises-dominate-in-powerful-q1-for-regtech-deals/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_regtech_funding_inflection",
+      "community": 2,
+      "norm_label": "regtech funding inflection"
     },
     {
-      "id": "2026_04_17_caixabank_globalview_open_data",
       "label": "CaixaBank GlobalView Open Data",
       "file_type": "document",
       "source_file": "2026-04-17.md",
@@ -559,10 +709,12 @@
       "source_url": "https://www.caixabank.com/en/headlines/news/caixabank-private-banking-is-launching-a-new-service-unique-in-spain-that-combines-agility-in-portfolio-construction-with-maximum-personalization-in-advisory",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_17_caixabank_globalview_open_data",
+      "community": 1,
+      "norm_label": "caixabank globalview open data"
     },
     {
-      "id": "2026_04_16_project_glasswing_mythos_access",
       "label": "Project Glasswing Mythos Access",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -570,10 +722,12 @@
       "source_url": "https://www.disruptionbanking.com/2026/04/16/anthropics-mythos-reaches-british-banks/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_project_glasswing_mythos_access",
+      "community": 4,
+      "norm_label": "project glasswing mythos access"
     },
     {
-      "id": "2026_04_16_boe_ai_stress_tests",
       "label": "BoE AI Stress Tests",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -581,10 +735,12 @@
       "source_url": "https://www.bloomberg.com/news/articles/2026-04-16/bank-of-england-to-add-ai-risks-into-stress-tests-lawmakers-say",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_boe_ai_stress_tests",
+      "community": 4,
+      "norm_label": "boe ai stress tests"
     },
     {
-      "id": "2026_04_16_jpmorgan_ai_cyber_harder",
       "label": "JPMorgan AI Makes Cyber Harder",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -592,10 +748,12 @@
       "source_url": "https://www.cnbc.com/2026/04/14/jamie-dimon-anthropic-mythos-vulnerabilities-cyber-attacks.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_jpmorgan_ai_cyber_harder",
+      "community": 4,
+      "norm_label": "jpmorgan ai makes cyber harder"
     },
     {
-      "id": "2026_04_16_goldman_embedded_anthropic_agents",
       "label": "Goldman Embedded Anthropic Agents",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -603,10 +761,12 @@
       "source_url": "https://www.bankingexchange.com/news-feed/item/10579-goldman-sachs-puts-ai-at-core-of-new-strategy",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_goldman_embedded_anthropic_agents",
+      "community": 1,
+      "norm_label": "goldman embedded anthropic agents"
     },
     {
-      "id": "2026_04_16_bofa_enterprise_ai_transformation",
       "label": "BofA Enterprise AI Transformation",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -614,10 +774,12 @@
       "source_url": "https://www.bankingdive.com/news/bank-of-america-gopalkrishnan-ai-strategy/817544/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_bofa_enterprise_ai_transformation",
+      "community": 1,
+      "norm_label": "bofa enterprise ai transformation"
     },
     {
-      "id": "2026_04_16_fca_insurance_ai_assessment",
       "label": "FCA Insurance AI Assessment",
       "file_type": "document",
       "source_file": "2026-04-16.md",
@@ -625,10 +787,12 @@
       "source_url": "https://fintech.global/2026/04/16/fca-targets-ai-governance-and-off-channel-messaging/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_16_fca_insurance_ai_assessment",
+      "community": 0,
+      "norm_label": "fca insurance ai assessment"
     },
     {
-      "id": "2026_04_15_openai_hiro_personal_cfo",
       "label": "OpenAI Hiro Personal CFO",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -636,10 +800,12 @@
       "source_url": "https://www.pymnts.com/acquisitions/2026/openai-buys-personal-finance-platform-hiro/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_openai_hiro_personal_cfo",
+      "community": 1,
+      "norm_label": "openai hiro personal cfo"
     },
     {
-      "id": "2026_04_15_bessent_powell_mythos_summit",
       "label": "Bessent Powell Mythos Summit",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -647,10 +813,12 @@
       "source_url": "https://www.pymnts.com/cybersecurity/2026/banks-face-complex-cyber-risks-from-anthropics-mythos/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_bessent_powell_mythos_summit",
+      "community": 4,
+      "norm_label": "bessent powell mythos summit"
     },
     {
-      "id": "2026_04_15_visa_intelligent_commerce_connect",
       "label": "Visa Intelligent Commerce Connect",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -658,10 +826,12 @@
       "source_url": "https://www.americanbanker.com/payments/news/visa-mastercard-expand-agentic-ai-deployments",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_visa_intelligent_commerce_connect",
+      "community": 6,
+      "norm_label": "visa intelligent commerce connect"
     },
     {
-      "id": "2026_04_15_ai_identity_fraud_40b",
       "label": "AI Identity Fraud $40B Forecast",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -669,10 +839,12 @@
       "source_url": "https://compliancehub.wiki/ai-identity-fraud-financial-40-billion/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_ai_identity_fraud_40b",
+      "community": 3,
+      "norm_label": "ai identity fraud $40b forecast"
     },
     {
-      "id": "2026_04_15_primitive_agent_os",
       "label": "Primitive Agent OS",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -680,10 +852,12 @@
       "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/primitive-launches-system-to-help-financial-institutions-deploy-ai-agents/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_primitive_agent_os",
+      "community": 5,
+      "norm_label": "primitive agent os"
     },
     {
-      "id": "2026_04_15_ncino_credit_review_agent",
       "label": "nCino Credit Review Agent",
       "file_type": "document",
       "source_file": "2026-04-15.md",
@@ -691,10 +865,12 @@
       "source_url": "https://www.globenewswire.com/news-release/2026/04/06/3268360/0/en/nCino-Analyst-Digital-Partner-Cuts-Commercial-Relationship-Review-Time-by-Up-to-70-Enabling-Financial-Institutions-to-Build-an-AI-Augmented-Credit-Workforce.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_15_ncino_credit_review_agent",
+      "community": 2,
+      "norm_label": "ncino credit review agent"
     },
     {
-      "id": "2026_04_14_open_finance_agentic_foundation",
       "label": "Open Finance Agentic Foundation",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -702,10 +878,12 @@
       "source_url": "https://ffnews.com/newsarticle/fintech/fca-sets-out-vision-for-open-finance-to-empower-consumers-and-businesses",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_open_finance_agentic_foundation",
+      "community": 1,
+      "norm_label": "open finance agentic foundation"
     },
     {
-      "id": "2026_04_14_scotia_intelligence_platform",
       "label": "Scotia Intelligence Platform",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -713,10 +891,12 @@
       "source_url": "https://www.pymnts.com/artificial-intelligence-2/2026/scotiabank-equips-global-staff-with-new-scotia-intelligence-ai/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_scotia_intelligence_platform",
+      "community": 9,
+      "norm_label": "scotia intelligence platform"
     },
     {
-      "id": "2026_04_14_rogue_ai_agents_risk",
       "label": "Rogue AI Agents Risk",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -724,10 +904,12 @@
       "source_url": "https://www.americanbanker.com/news/ai-agents-are-going-rogue-heres-what-banks-can-do-about-it",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_rogue_ai_agents_risk",
+      "community": 5,
+      "norm_label": "rogue ai agents risk"
     },
     {
-      "id": "2026_04_14_dxc_assure_smart_apps",
       "label": "DXC Assure Smart Apps",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -735,10 +917,12 @@
       "source_url": "https://fintech.global/2026/04/13/dxc-launches-ai-powered-assure-smart-apps-for-insurers/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_dxc_assure_smart_apps",
+      "community": 0,
+      "norm_label": "dxc assure smart apps"
     },
     {
-      "id": "2026_04_14_clara_property_aml_checks",
       "label": "Clara Property AML Checks",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -746,10 +930,12 @@
       "source_url": "https://fintech.global/2026/04/14/coadjute-deploys-digital-human-for-aml-checks/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_clara_property_aml_checks",
+      "community": 3,
+      "norm_label": "clara property aml checks"
     },
     {
-      "id": "2026_04_14_oracle_lucinity_ai_investigator",
       "label": "Oracle Lucinity AI Investigator",
       "file_type": "document",
       "source_file": "2026-04-14.md",
@@ -757,10 +943,12 @@
       "source_url": "https://www.stocktitan.net/news/ORCL/oracle-brings-new-ai-agent-driven-capabilities-to-its-industry-2b38igevttwu.html",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_14_oracle_lucinity_ai_investigator",
+      "community": 2,
+      "norm_label": "oracle lucinity ai investigator"
     },
     {
-      "id": "2026_04_13_hsbc_chief_ai_officer",
       "label": "HSBC Chief AI Officer",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -768,10 +956,12 @@
       "source_url": "https://www.bankingdive.com/news/hsbc-david-rice-ai-chief-cto-mario-shamtani-expanded-role-elhedery/815655/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_hsbc_chief_ai_officer",
+      "community": 8,
+      "norm_label": "hsbc chief ai officer"
     },
     {
-      "id": "2026_04_13_td_bank_aml_remediation_ai",
       "label": "TD Bank AML Remediation AI",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -779,10 +969,12 @@
       "source_url": "https://www.pymnts.com/earnings/2026/td-bank-scales-ai-to-fix-aml-program/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_td_bank_aml_remediation_ai",
+      "community": 3,
+      "norm_label": "td bank aml remediation ai"
     },
     {
-      "id": "2026_04_13_federated_pkyc",
       "label": "Federated Perpetual KYC",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -790,10 +982,12 @@
       "source_url": "https://fintech.global/2026/04/09/sigma360-and-consilient-partner-on-ai-driven-pkyc/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_federated_pkyc",
+      "community": 3,
+      "norm_label": "federated perpetual kyc"
     },
     {
-      "id": "2026_04_13_ai_forensics_alert_backlog",
       "label": "AI Forensics Alert Backlog",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -801,10 +995,12 @@
       "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-forensics-takes-aim-at-compliance-gridlock/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_ai_forensics_alert_backlog",
+      "community": 3,
+      "norm_label": "ai forensics alert backlog"
     },
     {
-      "id": "2026_04_13_ai_training_culture_gap",
       "label": "AI Training Culture Gap",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -812,10 +1008,12 @@
       "source_url": "https://www.americanbanker.com/payments/news/banks-struggle-with-ais-learning-curve",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_ai_training_culture_gap",
+      "community": 2,
+      "norm_label": "ai training culture gap"
     },
     {
-      "id": "2026_04_13_eu_ai_act_credit_insurance_deadline",
       "label": "EU AI Act Credit Insurance Deadline",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -823,10 +1021,12 @@
       "source_url": "https://www.softermii.com/blog/artificial-intelligence/eu-ai-act-compliance-guide",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_eu_ai_act_credit_insurance_deadline",
+      "community": 0,
+      "norm_label": "eu ai act credit insurance deadline"
     },
     {
-      "id": "2026_04_13_agentic_insurance_underwriting",
       "label": "Agentic Insurance Underwriting",
       "file_type": "document",
       "source_file": "2026-04-13.md",
@@ -834,759 +1034,876 @@
       "source_url": "https://insuretechtrends.com/5-ways-agentic-ai-is-transforming-insurance-underwriting-in-2026/",
       "captured_at": null,
       "author": null,
-      "contributor": null
+      "contributor": null,
+      "id": "2026_04_13_agentic_insurance_underwriting",
+      "community": 0,
+      "norm_label": "agentic insurance underwriting"
     }
   ],
-  "edges": [
+  "links": [
     {
-      "source": "2026_04_28_cambridge_ai_adoption_gap",
-      "target": "2026_04_28_regulators_lag_ai_supervision",
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: Cambridge",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_cambridge_ai_adoption_gap",
+      "_tgt": "2026_04_28_regulators_lag_ai_supervision",
+      "source": "2026_04_28_cambridge_ai_adoption_gap",
+      "target": "2026_04_28_regulators_lag_ai_supervision"
     },
     {
-      "source": "2026_04_28_regulators_lag_ai_supervision",
-      "target": "2026_04_26_sr_26_2_model_risk_scope_gap",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.78,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: Cambridge",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_regulators_lag_ai_supervision",
+      "_tgt": "2026_04_26_sr_26_2_model_risk_scope_gap",
+      "source": "2026_04_28_regulators_lag_ai_supervision",
+      "target": "2026_04_26_sr_26_2_model_risk_scope_gap"
     },
     {
-      "source": "2026_04_28_regulators_lag_ai_supervision",
-      "target": "2026_04_28_cftc_ai_crypto_surveillance",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.72,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: CFTC",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_regulators_lag_ai_supervision",
+      "_tgt": "2026_04_28_cftc_ai_crypto_surveillance",
+      "source": "2026_04_28_regulators_lag_ai_supervision",
+      "target": "2026_04_28_cftc_ai_crypto_surveillance"
     },
     {
-      "source": "2026_04_28_q2_realtime_account_takeover_controls",
-      "target": "2026_04_28_ai_led_fraud_defense",
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.84,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: Q2 and Payments Fraud",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_q2_realtime_account_takeover_controls",
+      "_tgt": "2026_04_28_ai_led_fraud_defense",
+      "source": "2026_04_28_q2_realtime_account_takeover_controls",
+      "target": "2026_04_28_ai_led_fraud_defense"
     },
     {
-      "source": "2026_04_28_q2_realtime_account_takeover_controls",
-      "target": "2026_04_24_transaction_forensics_app_fraud",
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.86,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: Q2",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_q2_realtime_account_takeover_controls",
+      "_tgt": "2026_04_24_transaction_forensics_app_fraud",
+      "source": "2026_04_28_q2_realtime_account_takeover_controls",
+      "target": "2026_04_24_transaction_forensics_app_fraud"
     },
     {
-      "source": "2026_04_28_ai_led_fraud_defense",
-      "target": "2026_04_26_ai_enabled_fraud_20b",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-28.md",
-      "source_location": "Top stories: Payments Fraud",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_28_ai_led_fraud_defense",
-      "target": "2026_04_15_ai_identity_fraud_40b",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-28.md",
-      "source_location": "Top stories: Payments Fraud",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_28_delegated_bot_permission",
-      "target": "2026_04_27_agentic_commerce_card_infrastructure",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-28.md",
-      "source_location": "Top stories: Bot Permission",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_28_delegated_bot_permission",
-      "target": "2026_04_15_visa_intelligent_commerce_connect",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.86,
-      "source_file": "2026-04-28.md",
-      "source_location": "Top stories: Bot Permission",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_28_core_cloud_contract_rewrite",
-      "target": "2026_04_27_google_agentic_platform_governance",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.75,
       "source_file": "2026-04-28.md",
       "source_location": "Top stories: Cloud Contracts",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_28_core_cloud_contract_rewrite",
+      "_tgt": "2026_04_27_google_agentic_platform_governance",
+      "source": "2026_04_28_core_cloud_contract_rewrite",
+      "target": "2026_04_27_google_agentic_platform_governance"
     },
     {
-      "source": "2026_04_27_customers_bank_openai_operating_model",
-      "target": "2026_04_27_agentic_desk_work",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Customers Bank",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_agentic_desk_work",
-      "target": "2026_04_15_ncino_credit_review_agent",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.83,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Agentic Desk Work",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_affirm_agentic_credit",
-      "target": "2026_04_15_ncino_credit_review_agent",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Affirm",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_agentic_commerce_card_infrastructure",
-      "target": "2026_04_22_fime_fact_trust_layer",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Agentic Commerce",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_agentic_commerce_card_infrastructure",
-      "target": "2026_04_15_visa_intelligent_commerce_connect",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Agentic Commerce",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_green_dot_data_moat_speed",
-      "target": "2026_04_28_ai_led_fraud_defense",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Green Dot",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_smartsearch_compliance_automation_gap",
-      "target": "2026_04_24_fincen_ai_aml_supervisory_credit",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: SmartSearch",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_27_google_agentic_platform_governance",
-      "target": "2026_04_22_mcp_arbitrary_code_execution_risk",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-27.md",
-      "source_location": "Top stories: Google Agentic Stack",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_citi_sky_ai_wealth_avatar",
-      "target": "2026_04_25_consumer_ai_financial_advice_adoption",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.78,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: Citi Sky",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_citi_sky_ai_wealth_avatar",
-      "target": "2026_04_20_wealth_ai_implementation_gap",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.76,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: Citi Sky",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_sr_26_2_model_risk_scope_gap",
-      "target": "2026_04_13_eu_ai_act_credit_insurance_deadline",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.73,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: SR 26-2",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_hkma_mas_ai_cyber_resilience",
-      "target": "2026_04_16_project_glasswing_mythos_access",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: HKMA MAS",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_hkma_mas_ai_cyber_resilience",
-      "target": "2026_04_22_boe_ai_systemic_risk_testing",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: HKMA MAS",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_26_bank_of_bots_agent_native_finance",
-      "target": "2026_04_28_delegated_bot_permission",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "2026-04-26.md",
-      "source_location": "Top stories: Bank of Bots",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_25_chatgpt_insurance_distribution",
-      "target": "2026_04_15_openai_hiro_personal_cfo",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.79,
-      "source_file": "2026-04-25.md",
-      "source_location": "Top stories: Simply Business",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_25_commercial_underwriting_data_prefill",
-      "target": "2026_04_13_agentic_insurance_underwriting",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-25.md",
-      "source_location": "Top stories: Cytora LexisNexis",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_25_taiwan_sovereign_financial_ai",
-      "target": "2026_04_28_core_cloud_contract_rewrite",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.76,
       "source_file": "2026-04-25.md",
       "source_location": "Top stories: Taiwan",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_25_taiwan_sovereign_financial_ai",
+      "_tgt": "2026_04_28_core_cloud_contract_rewrite",
+      "source": "2026_04_28_core_cloud_contract_rewrite",
+      "target": "2026_04_25_taiwan_sovereign_financial_ai"
     },
     {
-      "source": "2026_04_24_transaction_forensics_app_fraud",
-      "target": "2026_04_13_ai_forensics_alert_backlog",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: Transaction Forensics",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_24_fincen_ai_aml_supervisory_credit",
-      "target": "2026_04_13_td_bank_aml_remediation_ai",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: FinCEN",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_24_fincen_ai_aml_supervisory_credit",
-      "target": "2026_04_14_oracle_lucinity_ai_investigator",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.79,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: FinCEN",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_24_ai_cyber_insurance_sublimits",
-      "target": "2026_04_22_ai_output_coverage_exclusions",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: QBE Beazley",
-      "weight": 1.0
+      "source_file": "2026-04-28.md",
+      "source_location": "Top stories: Payments Fraud",
+      "weight": 1.0,
+      "_src": "2026_04_28_ai_led_fraud_defense",
+      "_tgt": "2026_04_26_ai_enabled_fraud_20b",
+      "source": "2026_04_28_ai_led_fraud_defense",
+      "target": "2026_04_26_ai_enabled_fraud_20b"
     },
     {
-      "source": "2026_04_24_ai_cyber_insurance_sublimits",
-      "target": "2026_04_17_fitch_ai_vulnerability_gap",
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: QBE Beazley",
-      "weight": 1.0
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-28.md",
+      "source_location": "Top stories: Payments Fraud",
+      "weight": 1.0,
+      "_src": "2026_04_28_ai_led_fraud_defense",
+      "_tgt": "2026_04_15_ai_identity_fraud_40b",
+      "source": "2026_04_28_ai_led_fraud_defense",
+      "target": "2026_04_15_ai_identity_fraud_40b"
     },
     {
-      "source": "2026_04_24_insurance_ai_legitimacy_boundary",
-      "target": "2026_04_13_agentic_insurance_underwriting",
       "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.72,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: Insurity",
-      "weight": 1.0
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Green Dot",
+      "weight": 1.0,
+      "_src": "2026_04_27_green_dot_data_moat_speed",
+      "_tgt": "2026_04_28_ai_led_fraud_defense",
+      "source": "2026_04_28_ai_led_fraud_defense",
+      "target": "2026_04_27_green_dot_data_moat_speed"
     },
     {
-      "source": "2026_04_24_goldman_world_models",
-      "target": "2026_04_22_boe_ai_systemic_risk_testing",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.63,
-      "source_file": "2026-04-24.md",
-      "source_location": "Top stories: World Models",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_23_fca_ai_live_testing",
-      "target": "2026_04_16_fca_insurance_ai_assessment",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: FCA",
-      "weight": 1.0
+      "source_file": "2026-04-28.md",
+      "source_location": "Top stories: Bot Permission",
+      "weight": 1.0,
+      "_src": "2026_04_28_delegated_bot_permission",
+      "_tgt": "2026_04_27_agentic_commerce_card_infrastructure",
+      "source": "2026_04_28_delegated_bot_permission",
+      "target": "2026_04_27_agentic_commerce_card_infrastructure"
     },
     {
-      "source": "2026_04_23_backbase_ai_banking_os",
-      "target": "2026_04_15_primitive_agent_os",
-      "relation": "semantically_similar_to",
+      "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.86,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Backbase",
-      "weight": 1.0
+      "source_file": "2026-04-28.md",
+      "source_location": "Top stories: Bot Permission",
+      "weight": 1.0,
+      "_src": "2026_04_28_delegated_bot_permission",
+      "_tgt": "2026_04_15_visa_intelligent_commerce_connect",
+      "source": "2026_04_28_delegated_bot_permission",
+      "target": "2026_04_15_visa_intelligent_commerce_connect"
     },
     {
-      "source": "2026_04_23_backbase_ai_banking_os",
-      "target": "2026_04_28_delegated_bot_permission",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: Bank of Bots",
+      "weight": 1.0,
+      "_src": "2026_04_26_bank_of_bots_agent_native_finance",
+      "_tgt": "2026_04_28_delegated_bot_permission",
+      "source": "2026_04_28_delegated_bot_permission",
+      "target": "2026_04_26_bank_of_bots_agent_native_finance"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "2026-04-23.md",
       "source_location": "Top stories: Backbase",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_23_backbase_ai_banking_os",
+      "_tgt": "2026_04_28_delegated_bot_permission",
+      "source": "2026_04_28_delegated_bot_permission",
+      "target": "2026_04_23_backbase_ai_banking_os"
     },
     {
-      "source": "2026_04_23_wall_street_ai_job_cuts",
-      "target": "2026_04_17_wall_street_5000_job_cuts",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Wall Street Job Cuts",
-      "weight": 1.0
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Customers Bank",
+      "weight": 1.0,
+      "_src": "2026_04_27_customers_bank_openai_operating_model",
+      "_tgt": "2026_04_27_agentic_desk_work",
+      "source": "2026_04_27_customers_bank_openai_operating_model",
+      "target": "2026_04_27_agentic_desk_work"
     },
     {
-      "source": "2026_04_23_wall_street_ai_job_cuts",
-      "target": "2026_04_16_goldman_embedded_anthropic_agents",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Wall Street Job Cuts",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_23_piraeus_centralized_ai_hub",
-      "target": "2026_04_13_hsbc_chief_ai_officer",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.76,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Piraeus",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_23_mizuho_quantum_ai_surveillance",
-      "target": "2026_04_14_oracle_lucinity_ai_investigator",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.77,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Mizuho",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_23_claimable_ai_denial_appeals",
-      "target": "2026_04_24_insurance_ai_legitimacy_boundary",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.69,
-      "source_file": "2026-04-23.md",
-      "source_location": "Top stories: Claimable",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_22_bny_digital_employees_margin_engine",
-      "target": "2026_04_27_customers_bank_openai_operating_model",
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.79,
       "source_file": "2026-04-22.md",
       "source_location": "Top stories: BNY",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_22_bny_digital_employees_margin_engine",
+      "_tgt": "2026_04_27_customers_bank_openai_operating_model",
+      "source": "2026_04_27_customers_bank_openai_operating_model",
+      "target": "2026_04_22_bny_digital_employees_margin_engine"
     },
     {
-      "source": "2026_04_22_fime_fact_trust_layer",
-      "target": "2026_04_15_visa_intelligent_commerce_connect",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-22.md",
-      "source_location": "Top stories: Fime FACT",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_22_boe_ai_systemic_risk_testing",
-      "target": "2026_04_16_boe_ai_stress_tests",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-22.md",
-      "source_location": "Top stories: BoE",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_22_mcp_arbitrary_code_execution_risk",
-      "target": "2026_04_14_rogue_ai_agents_risk",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.81,
-      "source_file": "2026-04-22.md",
-      "source_location": "Top stories: MCP Flaw",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_22_morgan_stanley_ai_wealth_leverage",
-      "target": "2026_04_16_jpmorgan_ai_cyber_harder",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-22.md",
-      "source_location": "Top stories: Morgan Stanley",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_20_mythos_defensive_cyber_warning",
-      "target": "2026_04_16_project_glasswing_mythos_access",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: NSA Mythos",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_20_mythos_defensive_cyber_warning",
-      "target": "2026_04_15_bessent_powell_mythos_summit",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: NSA Mythos",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_20_ai_drives_cyberattacks",
-      "target": "2026_04_17_fitch_ai_vulnerability_gap",
-      "relation": "conceptually_related_to",
+      "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.83,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: Cyberattacks",
-      "weight": 1.0
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Agentic Desk Work",
+      "weight": 1.0,
+      "_src": "2026_04_27_agentic_desk_work",
+      "_tgt": "2026_04_15_ncino_credit_review_agent",
+      "source": "2026_04_27_agentic_desk_work",
+      "target": "2026_04_15_ncino_credit_review_agent"
     },
     {
-      "source": "2026_04_20_oracle_corporate_banking_agents",
-      "target": "2026_04_14_oracle_lucinity_ai_investigator",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: Oracle",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_20_guidewire_pronavigator_insurance_core",
-      "target": "2026_04_14_dxc_assure_smart_apps",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.84,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: Guidewire",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_20_wealth_ai_implementation_gap",
-      "target": "2026_04_17_bofa_meeting_journey_ai",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.78,
-      "source_file": "2026-04-20.md",
-      "source_location": "Top stories: Wealth Management",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_17_bofa_meeting_journey_ai",
-      "target": "2026_04_16_bofa_enterprise_ai_transformation",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-17.md",
-      "source_location": "Top stories: BofA Meeting Journey",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_17_wall_street_5000_job_cuts",
-      "target": "2026_04_16_bofa_enterprise_ai_transformation",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.72,
-      "source_file": "2026-04-17.md",
-      "source_location": "Top stories: Wall Street Cuts",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_17_fargo_assistant_scale",
-      "target": "2026_04_14_scotia_intelligence_platform",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.74,
-      "source_file": "2026-04-17.md",
-      "source_location": "Top stories: Fargo",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_17_regtech_funding_inflection",
-      "target": "2026_04_24_fincen_ai_aml_supervisory_credit",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.78,
-      "source_file": "2026-04-17.md",
-      "source_location": "Top stories: RegTech",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_17_caixabank_globalview_open_data",
-      "target": "2026_04_14_open_finance_agentic_foundation",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-17.md",
-      "source_location": "Top stories: CaixaBank",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_16_project_glasswing_mythos_access",
-      "target": "2026_04_15_bessent_powell_mythos_summit",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-16.md",
-      "source_location": "Top stories: Project Glasswing",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_16_boe_ai_stress_tests",
-      "target": "2026_04_22_boe_ai_systemic_risk_testing",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-16.md",
-      "source_location": "Top stories: BoE Stress Tests",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_16_jpmorgan_ai_cyber_harder",
-      "target": "2026_04_15_bessent_powell_mythos_summit",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-16.md",
-      "source_location": "Top stories: Jamie Dimon",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_16_goldman_embedded_anthropic_agents",
-      "target": "2026_04_15_primitive_agent_os",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.72,
-      "source_file": "2026-04-16.md",
-      "source_location": "Top stories: Goldman Anthropic",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_16_fca_insurance_ai_assessment",
-      "target": "2026_04_13_eu_ai_act_credit_insurance_deadline",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-16.md",
-      "source_location": "Top stories: FCA Insurance",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_15_openai_hiro_personal_cfo",
-      "target": "2026_04_25_consumer_ai_financial_advice_adoption",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-15.md",
-      "source_location": "Top stories: OpenAI Hiro",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_15_visa_intelligent_commerce_connect",
-      "target": "2026_04_22_fime_fact_trust_layer",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-15.md",
-      "source_location": "Top stories: Visa",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_15_primitive_agent_os",
-      "target": "2026_04_23_backbase_ai_banking_os",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.86,
-      "source_file": "2026-04-15.md",
-      "source_location": "Top stories: Primitive",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_15_ncino_credit_review_agent",
-      "target": "2026_04_20_oracle_corporate_banking_agents",
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.81,
-      "source_file": "2026-04-15.md",
-      "source_location": "Top stories: nCino",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_14_open_finance_agentic_foundation",
-      "target": "2026_04_15_openai_hiro_personal_cfo",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.76,
-      "source_file": "2026-04-14.md",
-      "source_location": "Top stories: FCA Open Finance",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_14_rogue_ai_agents_risk",
-      "target": "2026_04_15_primitive_agent_os",
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.78,
-      "source_file": "2026-04-14.md",
-      "source_location": "Top stories: Rogue Agents",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_14_clara_property_aml_checks",
-      "target": "2026_04_13_federated_pkyc",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.73,
-      "source_file": "2026-04-14.md",
-      "source_location": "Top stories: Clara",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_13_td_bank_aml_remediation_ai",
-      "target": "2026_04_13_ai_forensics_alert_backlog",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "2026-04-13.md",
-      "source_location": "Top stories: TD Bank and AI Forensics",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_13_federated_pkyc",
-      "target": "2026_04_13_ai_forensics_alert_backlog",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "2026-04-13.md",
-      "source_location": "Top stories: Sigma360 and AI Forensics",
-      "weight": 1.0
-    },
-    {
-      "source": "2026_04_13_ai_training_culture_gap",
-      "target": "2026_04_27_agentic_desk_work",
       "relation": "rationale_for",
       "confidence": "INFERRED",
       "confidence_score": 0.7,
       "source_file": "2026-04-13.md",
       "source_location": "Top stories: Training Gap",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_13_ai_training_culture_gap",
+      "_tgt": "2026_04_27_agentic_desk_work",
+      "source": "2026_04_27_agentic_desk_work",
+      "target": "2026_04_13_ai_training_culture_gap"
     },
     {
-      "source": "2026_04_13_eu_ai_act_credit_insurance_deadline",
-      "target": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Affirm",
+      "weight": 1.0,
+      "_src": "2026_04_27_affirm_agentic_credit",
+      "_tgt": "2026_04_15_ncino_credit_review_agent",
+      "source": "2026_04_27_affirm_agentic_credit",
+      "target": "2026_04_15_ncino_credit_review_agent"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Agentic Commerce",
+      "weight": 1.0,
+      "_src": "2026_04_27_agentic_commerce_card_infrastructure",
+      "_tgt": "2026_04_22_fime_fact_trust_layer",
+      "source": "2026_04_27_agentic_commerce_card_infrastructure",
+      "target": "2026_04_22_fime_fact_trust_layer"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Agentic Commerce",
+      "weight": 1.0,
+      "_src": "2026_04_27_agentic_commerce_card_infrastructure",
+      "_tgt": "2026_04_15_visa_intelligent_commerce_connect",
+      "source": "2026_04_27_agentic_commerce_card_infrastructure",
+      "target": "2026_04_15_visa_intelligent_commerce_connect"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: SmartSearch",
+      "weight": 1.0,
+      "_src": "2026_04_27_smartsearch_compliance_automation_gap",
+      "_tgt": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "source": "2026_04_27_smartsearch_compliance_automation_gap",
+      "target": "2026_04_24_fincen_ai_aml_supervisory_credit"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-27.md",
+      "source_location": "Top stories: Google Agentic Stack",
+      "weight": 1.0,
+      "_src": "2026_04_27_google_agentic_platform_governance",
+      "_tgt": "2026_04_22_mcp_arbitrary_code_execution_risk",
+      "source": "2026_04_27_google_agentic_platform_governance",
+      "target": "2026_04_22_mcp_arbitrary_code_execution_risk"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: Citi Sky",
+      "weight": 1.0,
+      "_src": "2026_04_26_citi_sky_ai_wealth_avatar",
+      "_tgt": "2026_04_25_consumer_ai_financial_advice_adoption",
+      "source": "2026_04_26_citi_sky_ai_wealth_avatar",
+      "target": "2026_04_25_consumer_ai_financial_advice_adoption"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.76,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: Citi Sky",
+      "weight": 1.0,
+      "_src": "2026_04_26_citi_sky_ai_wealth_avatar",
+      "_tgt": "2026_04_20_wealth_ai_implementation_gap",
+      "source": "2026_04_26_citi_sky_ai_wealth_avatar",
+      "target": "2026_04_20_wealth_ai_implementation_gap"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.73,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: SR 26-2",
+      "weight": 1.0,
+      "_src": "2026_04_26_sr_26_2_model_risk_scope_gap",
+      "_tgt": "2026_04_13_eu_ai_act_credit_insurance_deadline",
+      "source": "2026_04_26_sr_26_2_model_risk_scope_gap",
+      "target": "2026_04_13_eu_ai_act_credit_insurance_deadline"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: HKMA MAS",
+      "weight": 1.0,
+      "_src": "2026_04_26_hkma_mas_ai_cyber_resilience",
+      "_tgt": "2026_04_16_project_glasswing_mythos_access",
+      "source": "2026_04_26_hkma_mas_ai_cyber_resilience",
+      "target": "2026_04_16_project_glasswing_mythos_access"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-26.md",
+      "source_location": "Top stories: HKMA MAS",
+      "weight": 1.0,
+      "_src": "2026_04_26_hkma_mas_ai_cyber_resilience",
+      "_tgt": "2026_04_22_boe_ai_systemic_risk_testing",
+      "source": "2026_04_26_hkma_mas_ai_cyber_resilience",
+      "target": "2026_04_22_boe_ai_systemic_risk_testing"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-15.md",
+      "source_location": "Top stories: OpenAI Hiro",
+      "weight": 1.0,
+      "_src": "2026_04_15_openai_hiro_personal_cfo",
+      "_tgt": "2026_04_25_consumer_ai_financial_advice_adoption",
+      "source": "2026_04_25_consumer_ai_financial_advice_adoption",
+      "target": "2026_04_15_openai_hiro_personal_cfo"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.79,
+      "source_file": "2026-04-25.md",
+      "source_location": "Top stories: Simply Business",
+      "weight": 1.0,
+      "_src": "2026_04_25_chatgpt_insurance_distribution",
+      "_tgt": "2026_04_15_openai_hiro_personal_cfo",
+      "source": "2026_04_25_chatgpt_insurance_distribution",
+      "target": "2026_04_15_openai_hiro_personal_cfo"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-25.md",
+      "source_location": "Top stories: Cytora LexisNexis",
+      "weight": 1.0,
+      "_src": "2026_04_25_commercial_underwriting_data_prefill",
+      "_tgt": "2026_04_13_agentic_insurance_underwriting",
+      "source": "2026_04_25_commercial_underwriting_data_prefill",
+      "target": "2026_04_13_agentic_insurance_underwriting"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: Transaction Forensics",
+      "weight": 1.0,
+      "_src": "2026_04_24_transaction_forensics_app_fraud",
+      "_tgt": "2026_04_13_ai_forensics_alert_backlog",
+      "source": "2026_04_24_transaction_forensics_app_fraud",
+      "target": "2026_04_13_ai_forensics_alert_backlog"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: FinCEN",
+      "weight": 1.0,
+      "_src": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "_tgt": "2026_04_13_td_bank_aml_remediation_ai",
+      "source": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "target": "2026_04_13_td_bank_aml_remediation_ai"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.79,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: FinCEN",
+      "weight": 1.0,
+      "_src": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "_tgt": "2026_04_14_oracle_lucinity_ai_investigator",
+      "source": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "target": "2026_04_14_oracle_lucinity_ai_investigator"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "2026-04-17.md",
+      "source_location": "Top stories: RegTech",
+      "weight": 1.0,
+      "_src": "2026_04_17_regtech_funding_inflection",
+      "_tgt": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "source": "2026_04_24_fincen_ai_aml_supervisory_credit",
+      "target": "2026_04_17_regtech_funding_inflection"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: QBE Beazley",
+      "weight": 1.0,
+      "_src": "2026_04_24_ai_cyber_insurance_sublimits",
+      "_tgt": "2026_04_22_ai_output_coverage_exclusions",
+      "source": "2026_04_24_ai_cyber_insurance_sublimits",
+      "target": "2026_04_22_ai_output_coverage_exclusions"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: QBE Beazley",
+      "weight": 1.0,
+      "_src": "2026_04_24_ai_cyber_insurance_sublimits",
+      "_tgt": "2026_04_17_fitch_ai_vulnerability_gap",
+      "source": "2026_04_24_ai_cyber_insurance_sublimits",
+      "target": "2026_04_17_fitch_ai_vulnerability_gap"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: Insurity",
+      "weight": 1.0,
+      "_src": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "_tgt": "2026_04_13_agentic_insurance_underwriting",
+      "source": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "target": "2026_04_13_agentic_insurance_underwriting"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.69,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: Claimable",
+      "weight": 1.0,
+      "_src": "2026_04_23_claimable_ai_denial_appeals",
+      "_tgt": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "source": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "target": "2026_04_23_claimable_ai_denial_appeals"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.76,
       "source_file": "2026-04-13.md",
       "source_location": "Top stories: EU AI Act",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_13_eu_ai_act_credit_insurance_deadline",
+      "_tgt": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "source": "2026_04_24_insurance_ai_legitimacy_boundary",
+      "target": "2026_04_13_eu_ai_act_credit_insurance_deadline"
     },
     {
-      "source": "2026_04_13_agentic_insurance_underwriting",
-      "target": "2026_04_14_dxc_assure_smart_apps",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.63,
+      "source_file": "2026-04-24.md",
+      "source_location": "Top stories: World Models",
+      "weight": 1.0,
+      "_src": "2026_04_24_goldman_world_models",
+      "_tgt": "2026_04_22_boe_ai_systemic_risk_testing",
+      "source": "2026_04_24_goldman_world_models",
+      "target": "2026_04_22_boe_ai_systemic_risk_testing"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: FCA",
+      "weight": 1.0,
+      "_src": "2026_04_23_fca_ai_live_testing",
+      "_tgt": "2026_04_16_fca_insurance_ai_assessment",
+      "source": "2026_04_23_fca_ai_live_testing",
+      "target": "2026_04_16_fca_insurance_ai_assessment"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.86,
+      "source_file": "2026-04-15.md",
+      "source_location": "Top stories: Primitive",
+      "weight": 1.0,
+      "_src": "2026_04_15_primitive_agent_os",
+      "_tgt": "2026_04_23_backbase_ai_banking_os",
+      "source": "2026_04_23_backbase_ai_banking_os",
+      "target": "2026_04_15_primitive_agent_os"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: Wall Street Job Cuts",
+      "weight": 1.0,
+      "_src": "2026_04_23_wall_street_ai_job_cuts",
+      "_tgt": "2026_04_17_wall_street_5000_job_cuts",
+      "source": "2026_04_23_wall_street_ai_job_cuts",
+      "target": "2026_04_17_wall_street_5000_job_cuts"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: Wall Street Job Cuts",
+      "weight": 1.0,
+      "_src": "2026_04_23_wall_street_ai_job_cuts",
+      "_tgt": "2026_04_16_goldman_embedded_anthropic_agents",
+      "source": "2026_04_23_wall_street_ai_job_cuts",
+      "target": "2026_04_16_goldman_embedded_anthropic_agents"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.76,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: Piraeus",
+      "weight": 1.0,
+      "_src": "2026_04_23_piraeus_centralized_ai_hub",
+      "_tgt": "2026_04_13_hsbc_chief_ai_officer",
+      "source": "2026_04_23_piraeus_centralized_ai_hub",
+      "target": "2026_04_13_hsbc_chief_ai_officer"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.77,
+      "source_file": "2026-04-23.md",
+      "source_location": "Top stories: Mizuho",
+      "weight": 1.0,
+      "_src": "2026_04_23_mizuho_quantum_ai_surveillance",
+      "_tgt": "2026_04_14_oracle_lucinity_ai_investigator",
+      "source": "2026_04_23_mizuho_quantum_ai_surveillance",
+      "target": "2026_04_14_oracle_lucinity_ai_investigator"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-15.md",
+      "source_location": "Top stories: Visa",
+      "weight": 1.0,
+      "_src": "2026_04_15_visa_intelligent_commerce_connect",
+      "_tgt": "2026_04_22_fime_fact_trust_layer",
+      "source": "2026_04_22_fime_fact_trust_layer",
+      "target": "2026_04_15_visa_intelligent_commerce_connect"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-16.md",
+      "source_location": "Top stories: BoE Stress Tests",
+      "weight": 1.0,
+      "_src": "2026_04_16_boe_ai_stress_tests",
+      "_tgt": "2026_04_22_boe_ai_systemic_risk_testing",
+      "source": "2026_04_22_boe_ai_systemic_risk_testing",
+      "target": "2026_04_16_boe_ai_stress_tests"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.81,
+      "source_file": "2026-04-22.md",
+      "source_location": "Top stories: MCP Flaw",
+      "weight": 1.0,
+      "_src": "2026_04_22_mcp_arbitrary_code_execution_risk",
+      "_tgt": "2026_04_14_rogue_ai_agents_risk",
+      "source": "2026_04_22_mcp_arbitrary_code_execution_risk",
+      "target": "2026_04_14_rogue_ai_agents_risk"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-22.md",
+      "source_location": "Top stories: Morgan Stanley",
+      "weight": 1.0,
+      "_src": "2026_04_22_morgan_stanley_ai_wealth_leverage",
+      "_tgt": "2026_04_16_jpmorgan_ai_cyber_harder",
+      "source": "2026_04_22_morgan_stanley_ai_wealth_leverage",
+      "target": "2026_04_16_jpmorgan_ai_cyber_harder"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: NSA Mythos",
+      "weight": 1.0,
+      "_src": "2026_04_20_mythos_defensive_cyber_warning",
+      "_tgt": "2026_04_16_project_glasswing_mythos_access",
+      "source": "2026_04_20_mythos_defensive_cyber_warning",
+      "target": "2026_04_16_project_glasswing_mythos_access"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: NSA Mythos",
+      "weight": 1.0,
+      "_src": "2026_04_20_mythos_defensive_cyber_warning",
+      "_tgt": "2026_04_15_bessent_powell_mythos_summit",
+      "source": "2026_04_20_mythos_defensive_cyber_warning",
+      "target": "2026_04_15_bessent_powell_mythos_summit"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.83,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: Cyberattacks",
+      "weight": 1.0,
+      "_src": "2026_04_20_ai_drives_cyberattacks",
+      "_tgt": "2026_04_17_fitch_ai_vulnerability_gap",
+      "source": "2026_04_20_ai_drives_cyberattacks",
+      "target": "2026_04_17_fitch_ai_vulnerability_gap"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: Oracle",
+      "weight": 1.0,
+      "_src": "2026_04_20_oracle_corporate_banking_agents",
+      "_tgt": "2026_04_14_oracle_lucinity_ai_investigator",
+      "source": "2026_04_20_oracle_corporate_banking_agents",
+      "target": "2026_04_14_oracle_lucinity_ai_investigator"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.81,
+      "source_file": "2026-04-15.md",
+      "source_location": "Top stories: nCino",
+      "weight": 1.0,
+      "_src": "2026_04_15_ncino_credit_review_agent",
+      "_tgt": "2026_04_20_oracle_corporate_banking_agents",
+      "source": "2026_04_20_oracle_corporate_banking_agents",
+      "target": "2026_04_15_ncino_credit_review_agent"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: Guidewire",
+      "weight": 1.0,
+      "_src": "2026_04_20_guidewire_pronavigator_insurance_core",
+      "_tgt": "2026_04_14_dxc_assure_smart_apps",
+      "source": "2026_04_20_guidewire_pronavigator_insurance_core",
+      "target": "2026_04_14_dxc_assure_smart_apps"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "2026-04-20.md",
+      "source_location": "Top stories: Wealth Management",
+      "weight": 1.0,
+      "_src": "2026_04_20_wealth_ai_implementation_gap",
+      "_tgt": "2026_04_17_bofa_meeting_journey_ai",
+      "source": "2026_04_20_wealth_ai_implementation_gap",
+      "target": "2026_04_17_bofa_meeting_journey_ai"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-17.md",
+      "source_location": "Top stories: BofA Meeting Journey",
+      "weight": 1.0,
+      "_src": "2026_04_17_bofa_meeting_journey_ai",
+      "_tgt": "2026_04_16_bofa_enterprise_ai_transformation",
+      "source": "2026_04_17_bofa_meeting_journey_ai",
+      "target": "2026_04_16_bofa_enterprise_ai_transformation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "2026-04-17.md",
+      "source_location": "Top stories: Wall Street Cuts",
+      "weight": 1.0,
+      "_src": "2026_04_17_wall_street_5000_job_cuts",
+      "_tgt": "2026_04_16_bofa_enterprise_ai_transformation",
+      "source": "2026_04_17_wall_street_5000_job_cuts",
+      "target": "2026_04_16_bofa_enterprise_ai_transformation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.74,
+      "source_file": "2026-04-17.md",
+      "source_location": "Top stories: Fargo",
+      "weight": 1.0,
+      "_src": "2026_04_17_fargo_assistant_scale",
+      "_tgt": "2026_04_14_scotia_intelligence_platform",
+      "source": "2026_04_17_fargo_assistant_scale",
+      "target": "2026_04_14_scotia_intelligence_platform"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-17.md",
+      "source_location": "Top stories: CaixaBank",
+      "weight": 1.0,
+      "_src": "2026_04_17_caixabank_globalview_open_data",
+      "_tgt": "2026_04_14_open_finance_agentic_foundation",
+      "source": "2026_04_17_caixabank_globalview_open_data",
+      "target": "2026_04_14_open_finance_agentic_foundation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-16.md",
+      "source_location": "Top stories: Project Glasswing",
+      "weight": 1.0,
+      "_src": "2026_04_16_project_glasswing_mythos_access",
+      "_tgt": "2026_04_15_bessent_powell_mythos_summit",
+      "source": "2026_04_16_project_glasswing_mythos_access",
+      "target": "2026_04_15_bessent_powell_mythos_summit"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-16.md",
+      "source_location": "Top stories: Jamie Dimon",
+      "weight": 1.0,
+      "_src": "2026_04_16_jpmorgan_ai_cyber_harder",
+      "_tgt": "2026_04_15_bessent_powell_mythos_summit",
+      "source": "2026_04_16_jpmorgan_ai_cyber_harder",
+      "target": "2026_04_15_bessent_powell_mythos_summit"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "2026-04-16.md",
+      "source_location": "Top stories: Goldman Anthropic",
+      "weight": 1.0,
+      "_src": "2026_04_16_goldman_embedded_anthropic_agents",
+      "_tgt": "2026_04_15_primitive_agent_os",
+      "source": "2026_04_16_goldman_embedded_anthropic_agents",
+      "target": "2026_04_15_primitive_agent_os"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-16.md",
+      "source_location": "Top stories: FCA Insurance",
+      "weight": 1.0,
+      "_src": "2026_04_16_fca_insurance_ai_assessment",
+      "_tgt": "2026_04_13_eu_ai_act_credit_insurance_deadline",
+      "source": "2026_04_16_fca_insurance_ai_assessment",
+      "target": "2026_04_13_eu_ai_act_credit_insurance_deadline"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.76,
+      "source_file": "2026-04-14.md",
+      "source_location": "Top stories: FCA Open Finance",
+      "weight": 1.0,
+      "_src": "2026_04_14_open_finance_agentic_foundation",
+      "_tgt": "2026_04_15_openai_hiro_personal_cfo",
+      "source": "2026_04_15_openai_hiro_personal_cfo",
+      "target": "2026_04_14_open_finance_agentic_foundation"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "2026-04-14.md",
+      "source_location": "Top stories: Rogue Agents",
+      "weight": 1.0,
+      "_src": "2026_04_14_rogue_ai_agents_risk",
+      "_tgt": "2026_04_15_primitive_agent_os",
+      "source": "2026_04_15_primitive_agent_os",
+      "target": "2026_04_14_rogue_ai_agents_risk"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "2026-04-13.md",
       "source_location": "Top stories: Agentic Insurance",
-      "weight": 1.0
+      "weight": 1.0,
+      "_src": "2026_04_13_agentic_insurance_underwriting",
+      "_tgt": "2026_04_14_dxc_assure_smart_apps",
+      "source": "2026_04_14_dxc_assure_smart_apps",
+      "target": "2026_04_13_agentic_insurance_underwriting"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.73,
+      "source_file": "2026-04-14.md",
+      "source_location": "Top stories: Clara",
+      "weight": 1.0,
+      "_src": "2026_04_14_clara_property_aml_checks",
+      "_tgt": "2026_04_13_federated_pkyc",
+      "source": "2026_04_14_clara_property_aml_checks",
+      "target": "2026_04_13_federated_pkyc"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "2026-04-13.md",
+      "source_location": "Top stories: TD Bank and AI Forensics",
+      "weight": 1.0,
+      "_src": "2026_04_13_td_bank_aml_remediation_ai",
+      "_tgt": "2026_04_13_ai_forensics_alert_backlog",
+      "source": "2026_04_13_td_bank_aml_remediation_ai",
+      "target": "2026_04_13_ai_forensics_alert_backlog"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "2026-04-13.md",
+      "source_location": "Top stories: Sigma360 and AI Forensics",
+      "weight": 1.0,
+      "_src": "2026_04_13_federated_pkyc",
+      "_tgt": "2026_04_13_ai_forensics_alert_backlog",
+      "source": "2026_04_13_federated_pkyc",
+      "target": "2026_04_13_ai_forensics_alert_backlog"
     }
   ],
   "hyperedges": [
@@ -1635,7 +1952,5 @@
       "confidence_score": 0.87,
       "source_file": "multiple"
     }
-  ],
-  "input_tokens": 0,
-  "output_tokens": 0
+  ]
 }
