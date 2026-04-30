@@ -43,3 +43,4 @@ github.com/microsoft/semantic-kernel
 github.com/camunda/camunda
 github.com/florath/rmtoo
 github.com/apache/incubator-kie-drools
+github.com/imixs/open-bpmn
