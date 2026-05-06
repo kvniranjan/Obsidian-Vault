@@ -44,3 +44,4 @@ github.com/camunda/camunda
 github.com/florath/rmtoo
 github.com/apache/incubator-kie-drools
 github.com/imixs/open-bpmn
+github.com/n8n-io/n8n
