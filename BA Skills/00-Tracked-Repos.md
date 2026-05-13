@@ -46,3 +46,4 @@ github.com/apache/incubator-kie-drools
 github.com/imixs/open-bpmn
 github.com/n8n-io/n8n
 github.com/Activiti/Activiti
+github.com/camunda/camunda-modeler
