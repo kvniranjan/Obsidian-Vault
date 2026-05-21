@@ -47,3 +47,4 @@ github.com/imixs/open-bpmn
 github.com/n8n-io/n8n
 github.com/Activiti/Activiti
 github.com/camunda/camunda-modeler
+github.com/open-metadata/OpenMetadata
