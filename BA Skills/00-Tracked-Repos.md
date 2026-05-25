@@ -49,3 +49,4 @@ github.com/Activiti/Activiti
 github.com/camunda/camunda-modeler
 github.com/open-metadata/OpenMetadata
 github.com/MrLesk/Backlog.md
+github.com/cortado-tool/cortado
