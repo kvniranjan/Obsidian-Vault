@@ -52,3 +52,4 @@ github.com/MrLesk/Backlog.md
 github.com/cortado-tool/cortado
 github.com/apache/superset
 github.com/openl-tablets/openl-tablets
+github.com/github/spec-kit
