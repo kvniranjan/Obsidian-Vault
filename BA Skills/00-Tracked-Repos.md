@@ -54,3 +54,4 @@ github.com/apache/superset
 github.com/openl-tablets/openl-tablets
 github.com/github/spec-kit
 github.com/datahub-project/datahub
+github.com/ModelioOpenSource/Modelio
