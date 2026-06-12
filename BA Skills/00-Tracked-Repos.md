@@ -55,3 +55,4 @@ github.com/openl-tablets/openl-tablets
 github.com/github/spec-kit
 github.com/datahub-project/datahub
 github.com/ModelioOpenSource/Modelio
+github.com/activepieces/activepieces
