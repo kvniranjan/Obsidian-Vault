@@ -56,3 +56,4 @@ github.com/github/spec-kit
 github.com/datahub-project/datahub
 github.com/ModelioOpenSource/Modelio
 github.com/activepieces/activepieces
+github.com/OpenAdaptAI/OpenAdapt
