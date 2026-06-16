@@ -59,3 +59,4 @@ github.com/activepieces/activepieces
 github.com/OpenAdaptAI/OpenAdapt
 github.com/infiniflow/ragflow
 github.com/opf/openproject
+github.com/didi/LogicFlow
