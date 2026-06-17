@@ -60,3 +60,4 @@ github.com/OpenAdaptAI/OpenAdapt
 github.com/infiniflow/ragflow
 github.com/opf/openproject
 github.com/didi/LogicFlow
+github.com/langgenius/dify
