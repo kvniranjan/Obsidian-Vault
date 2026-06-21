@@ -64,3 +64,4 @@ github.com/langgenius/dify
 github.com/operaton/operaton
 github.com/FlowiseAI/Flowise
 github.com/plantuml/plantuml
+github.com/apromore/ApromoreCore
