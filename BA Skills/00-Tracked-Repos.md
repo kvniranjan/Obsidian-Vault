@@ -66,3 +66,4 @@ github.com/FlowiseAI/Flowise
 github.com/plantuml/plantuml
 github.com/apromore/ApromoreCore
 github.com/ContextMapper/context-mapper-dsl
+github.com/loomio/loomio
