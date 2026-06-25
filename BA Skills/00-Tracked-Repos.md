@@ -68,3 +68,4 @@ github.com/apromore/ApromoreCore
 github.com/ContextMapper/context-mapper-dsl
 github.com/loomio/loomio
 github.com/nocobase/nocobase
+github.com/makeplane/plane
