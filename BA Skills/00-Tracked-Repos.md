@@ -71,3 +71,4 @@ github.com/nocobase/nocobase
 github.com/makeplane/plane
 github.com/amundsen-io/amundsen
 github.com/yuzutech/kroki
+github.com/bpmn-io/dmn-js
