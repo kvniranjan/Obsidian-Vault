@@ -74,3 +74,4 @@ github.com/yuzutech/kroki
 github.com/bpmn-io/dmn-js
 github.com/useblocks/sphinx-needs
 github.com/finos/fluxnova-bpm-platform
+github.com/itsallcode/openfasttrace
