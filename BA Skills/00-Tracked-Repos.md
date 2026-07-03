@@ -76,3 +76,4 @@ github.com/useblocks/sphinx-needs
 github.com/finos/fluxnova-bpm-platform
 github.com/itsallcode/openfasttrace
 github.com/cairis-platform/cairis
+github.com/evidence-dev/evidence
