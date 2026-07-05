@@ -78,3 +78,4 @@ github.com/itsallcode/openfasttrace
 github.com/cairis-platform/cairis
 github.com/evidence-dev/evidence
 github.com/j-easy/easy-rules
+github.com/ruc-datalab/DeepAnalyze
