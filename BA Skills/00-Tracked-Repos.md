@@ -80,3 +80,4 @@ github.com/evidence-dev/evidence
 github.com/j-easy/easy-rules
 github.com/ruc-datalab/DeepAnalyze
 github.com/OpenLineage/OpenLineage
+github.com/kiegroup/jbpm
