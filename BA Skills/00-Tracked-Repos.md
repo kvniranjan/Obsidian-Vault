@@ -83,3 +83,4 @@ github.com/OpenLineage/OpenLineage
 github.com/kiegroup/jbpm
 github.com/sinaptik-ai/pandas-ai
 github.com/itsthelore/rac-core
+github.com/AOT-Technologies/forms-flow-ai
