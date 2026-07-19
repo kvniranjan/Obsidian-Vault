@@ -92,3 +92,4 @@ github.com/retentioneering/retentioneering-tools
 github.com/jonverrier/RequirementLinter
 github.com/clidey/whodb
 github.com/ToolJet/ToolJet
+github.com/gaphor/gaphor
