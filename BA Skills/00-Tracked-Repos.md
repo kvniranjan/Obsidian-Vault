@@ -96,3 +96,4 @@ github.com/gaphor/gaphor
 github.com/DrMarkusVoss/pumla
 github.com/csgoh/processpiper
 github.com/Fission-AI/OpenSpec
+github.com/automatisch/automatisch
