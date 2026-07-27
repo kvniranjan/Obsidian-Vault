@@ -100,3 +100,4 @@ github.com/automatisch/automatisch
 github.com/conductor-oss/conductor
 github.com/Agents365-ai/drawio-skill
 github.com/phucnt-bazone-vietnam/use-case-writer
+github.com/poulainpi/ddd-toolbox
