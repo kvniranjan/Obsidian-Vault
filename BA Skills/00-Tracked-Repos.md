@@ -103,3 +103,4 @@ github.com/phucnt-bazone-vietnam/use-case-writer
 github.com/poulainpi/ddd-toolbox
 github.com/sartography/SpiffWorkflow
 github.com/tmorin/plantuml-libs
+github.com/imixs/imixs-workflow
