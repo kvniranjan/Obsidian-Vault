@@ -106,3 +106,4 @@ github.com/tmorin/plantuml-libs
 github.com/imixs/imixs-workflow
 github.com/miyuesc/bpmn-process-designer
 github.com/Budibase/budibase
+github.com/paed01/bpmn-engine
