@@ -109,3 +109,4 @@ github.com/Budibase/budibase
 github.com/paed01/bpmn-engine
 github.com/sparklabx/drawio-ai-kit
 github.com/goldmansachs/jdmn
+github.com/pneumaticapp/pneumaticworkflow
