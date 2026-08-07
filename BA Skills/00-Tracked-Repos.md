@@ -111,3 +111,4 @@ github.com/sparklabx/drawio-ai-kit
 github.com/goldmansachs/jdmn
 github.com/pneumaticapp/pneumaticworkflow
 github.com/plait-board/drawnix
+github.com/sansan0/TrendRadar
