@@ -113,3 +113,4 @@ github.com/pneumaticapp/pneumaticworkflow
 github.com/plait-board/drawnix
 github.com/sansan0/TrendRadar
 github.com/zjn-zjn/ice
+github.com/NASA-SW-VnV/fret
