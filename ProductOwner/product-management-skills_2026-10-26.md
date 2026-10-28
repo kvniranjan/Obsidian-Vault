@@ -1,96 +1,98 @@
 ---
-title: product-management-skills
-date: 2026-10-26
+title: product-skills
+date: 2026-10-27
 tags:
   - product-owner
   - product-management
   - github
-source: https://github.com/jpoindexter/product-management-skills
-repo: jpoindexter/product-management-skills
+source: https://github.com/Uxcel-Lab/product-skills
+repo: Uxcel-Lab/product-skills
 status: recommended
 ---
 
-# product-management-skills
+# product-skills
 
 ## Verdict
 
-This is worth a product owner's time if the team already uses Codex or Claude and wants repeatable decision workflows instead of improvised prompts. The repo is small and has only 1 star, so its quality is not community-proven, but its `/pm` router and explicit output contracts make it more operational than a generic PM prompt collection. Treat it as a workflow starter that needs local review, not as an authority or a replacement for product judgment.
+This is worth a product owner's time if they use an AI assistant and want better judgment in the output, not just faster document generation. The 21 PM skills cover discovery, requirements, roadmaps, metrics, experimentation, prioritization, and audits, with two workflows that connect them. It is not a product system of record, and the last push was 2026-07-02, so treat it as a useful skill library with a maintenance question, not a dependable platform.
 
 ## Repository
 
-- Repository: [jpoindexter/product-management-skills](https://github.com/jpoindexter/product-management-skills)
-- Primary language: not exposed by the accessible repository page
-- License: MIT
-- Stars: 1
-- Forks: 0
-- Open issues: not exposed by the accessible repository page
-- Created date: not exposed by the accessible repository page
-- Last pushed date: not exposed by the accessible repository page
-- Main topics: `agent-skills`, `ai-agents`, `claude-code`, `codex`, `llm`, `product-discovery`, `product-management`, `product-strategy`
-- Visible repository size: 2 commits, with `commands/`, `scripts/`, and `skills/` directories
-- Releases: no release history was visible on the accessible repository page
+| Field | Value |
+|---|---|
+| Repository | [Uxcel-Lab/product-skills](https://github.com/Uxcel-Lab/product-skills) |
+| Owner/repo | `Uxcel-Lab/product-skills` |
+| Primary language | Python |
+| License | MIT |
+| Stars | 36 |
+| Forks | 8 |
+| Open issues | 1 |
+| Created | 2026-06-22 |
+| Last pushed | 2026-07-02 |
+| Topics | `ai-skills`, `claude-skills`, `design-skills`, `figma-skill`, `pm-skills`, `ux-skill` |
+| Release | `v1.0.0`, published 2026-07-02 |
 
 ## Why This Repo Was Picked
 
-The winner is directly installable for Codex and Claude and has a narrow router that selects a small set of decision skills instead of dumping every framework into one answer. Its capability map covers discovery, interviews, opportunity trees, strategy, positioning, pricing, metrics, experiments, prioritization, roadmaps, PRDs, launches, stakeholder alignment, AI fit, AI evaluation, and AI risk. Each workflow is described with required inputs, decision steps, output contracts, quality gates, failure modes, and escalation rules, which gives a PO something to reuse in day-to-day work.
-
-It also fills a gap in the vault. Existing notes cover larger PM skill libraries, planning templates, GitHub delivery automation, requirements standards, and product operating systems. This repo is a smaller Codex-native decision router with less setup and a clearer focus on choosing the right product decision workflow.
+It beat the other candidates because it has unusually strong coverage of the actual PO loop: frame the problem, discover evidence, write a spec, prioritize, define metrics, test assumptions, and audit the resulting artifacts. The PM folder is organized into 21 small `SKILL.md` files rather than one oversized handbook, and the `idea-to-plan` and `product-review` workflows make the collection usable without memorizing every skill name. It also supports copying one skill or installing through `npx skills`, which keeps setup and lock-in low.
 
 ## Shortlist Considered
 
 | Repo | What it offers | Why it did not win or why it won |
-| --- | --- | --- |
-| [jpoindexter/product-management-skills](https://github.com/jpoindexter/product-management-skills) | Codex and Claude `/pm` router with decision skills for discovery, strategy, planning, metrics, experiments, launches, and AI product work | Won because the decision-oriented routing and explicit quality gates are practical despite weak community proof |
-| [Uxcel-Lab/product-skills](https://github.com/Uxcel-Lab/product-skills) | 59 AI-agent skills, including 21 product-management skills, UX audits, product specs, roadmaps, metrics, experiments, and workflows | Strong documentation and MIT license, but the repo is also a broad UX toolkit and has more installation surface than this PO-focused shortlist winner |
-| [julianoczkowski/product-manager](https://github.com/julianoczkowski/product-manager) | 18-stage Pragmatic Framework copilot that produces Markdown or Word artifacts from market problems through launch | More complete lifecycle dossier, but more opinionated, heavier, and tied to one framework and a longer guided journey |
-| [tarunccet/pm-skills](https://github.com/tarunccet/pm-skills) | 93 skills, 63 commands, 9 plugins, MCP support, and workflows for discovery, strategy, execution, analytics, GTM, AI PM, and prototyping | Broad and useful, but the 100-plus-skill surface is harder to evaluate and the repository has only 7 stars |
-| [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills) | PM skills for SaaS metrics, PRD critique, roadmaps, discovery, and career coaching across Codex, Claude, Cursor, and Windsurf | Stronger visible adoption at 178 stars, but the CC BY-NC-SA 4.0 license limits commercial reuse and the scope is less clearly organized around a single PO operating loop |
+|---|---|---|
+| [Uxcel-Lab/product-skills](https://github.com/Uxcel-Lab/product-skills) | 21 PM skills, two workflows, and five artifact and decision audits | Won: strongest balance of PO coverage, reusable judgment rules, low setup, and visible community proof |
+| [brandonwise/pm-handbook](https://github.com/brandonwise/pm-handbook) | Markdown templates, Python prioritization and AI evaluation tools, playbooks, and examples | Practical, but has zero stars or forks, no GitHub license metadata, and less discovery and stakeholder coverage |
+| [guhcostan/product-superpowers](https://github.com/guhcostan/product-superpowers) | 18 composable skills covering discovery through launch, with agentic review and research helpers | Broad and promising, but Claude-first, created and pushed on one day, and has only 1 star |
+| [product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills) | Large PM skill library with workflows, commands, and sample outputs | Stronger adoption, but already covered in the vault and overlaps with recent notes; no refresh was justified today |
+| [mirichard/pm-tools-templates](https://github.com/mirichard/pm-tools-templates) | Role-based PM templates for backlogs, stories, stakeholders, roadmaps, and metrics | Useful reference material, but already covered and less executable than the selected skill library |
 
 ## What It Is
 
-This is a small skill library and command router, not a backlog application, project tracker, analytics product, or requirements database. The `skills/` directory contains reusable product decision procedures, `commands/` contains the `/pm` entry point and command definitions, and `scripts/validate.py` checks metadata, router targets, unresolved placeholders, and unwanted artifacts. The workflows produce decision-ready artifacts in the agent conversation; they do not write to Jira, Linear, GitHub Projects, or another system of record.
+This is a curated toolkit of plain-text `SKILL.md` files for AI assistants. It is not a backlog application, analytics product, project tracker, or integration layer. The repository contains 38 UX skills and 21 PM skills, with the PM material split into foundations, deliverables, processes, audits, and workflows. Each skill gives an assistant decision rules, context gates, trade-offs, and output expectations for a specific product task.
 
 ## Why It Is Useful For Product Owners
 
-- Backlog refinement: use `product-prioritization` to choose a framework based on the decision context instead of applying RICE to everything.
-- Discovery: use `product-discovery`, `product-interview`, and `product-opportunity-tree` to frame evidence gaps before committing to requirements.
-- Requirements: use `product-prd` after the problem and evidence are clear, then inspect whether the output states measurable outcomes and unresolved assumptions.
-- Stakeholder alignment: use `product-stakeholders` and `product-launch` to turn a decision into an owned communication and delivery plan.
-- Roadmap planning: use `product-roadmap` to communicate outcomes and sequencing rather than presenting a fixed feature promise.
-- Metrics and experimentation: use `product-metrics` and `product-experiment` to define success measures and tests before build work is treated as success.
-- AI feature governance: use `product-ai-fit`, `product-ai-evals`, and `product-ai-risk` when the product decision involves model behavior, evaluation, or launch risk.
+- Backlog refinement: use the user-story skill to turn vague requests into who, what, and why statements, then use spec-quality or prioritization-rigor audits before planning.
+- Discovery: use problem-statement, personas-jtbd, discovery, and assumption-testing to keep a stakeholder request from becoming an untested feature commitment.
+- Acceptance criteria and requirements: use product-spec and user-story skills to expose scope, edge cases, assumptions, and measurable requirements before engineering handoff.
+- Prioritization: use the prioritization process plus its audit to select a framework for the context, surface weak confidence, sequence work, and document what is explicitly not being done.
+- Roadmap planning: use the roadmap skill to produce outcome-oriented Now-Next-Later communication instead of a false-precision date list.
+- Metrics and experimentation: use okrs-kpis, analytics, experimentation-ab, and okr-metric-validity to define baselines, targets, guardrails, decision rules, and stop conditions.
+- Stakeholder alignment and delivery: use product-review to inspect an existing artifact and return a single prioritized set of issues rather than separate uncoordinated critiques.
 
 ## How I Would Actually Use It
 
-1. Run `/pm Which customer problem should we investigate next?` with interview notes, support themes, and usage evidence attached. Review the routed discovery output and keep the unanswered evidence questions visible.
-2. Run `/pm Compare these three backlog opportunities` with strategic goals, customer impact, confidence, and effort. Use the resulting prioritization recommendation as a discussion aid, not an automatic ordering.
-3. Run `/pm Turn this validated opportunity into a PRD` only after supplying the problem evidence, target user, constraints, and success measure. Reject any generated requirement that is not testable or traceable to the problem.
-4. Run `/pm Turn this feature roadmap into an outcome roadmap` before a stakeholder review. Check that each theme has a strategy link, confidence level, and owner rather than only a date.
-5. Run `/pm Design an experiment for the activation hypothesis` with the current baseline, target segment, primary metric, guardrails, and decision threshold. Put the proposed test into the team's normal experiment register.
-6. Run `/pm Is this AI feature ready to launch?` with evaluation results, failure cases, user impact, and risk constraints. Use the output to create a launch checklist and explicit go or no-go decision.
+1. Copy `pm/foundations/problem-statement/SKILL.md` into the team's assistant skills directory and use it on the next stakeholder request before opening a feature ticket.
+2. Run `pm/workflows/idea-to-plan/SKILL.md` on one candidate initiative, then compare its generated problem, discovery, prioritization, spec, and metrics sections with the team's current planning document.
+3. Run `pm/audits/spec-quality/SKILL.md` against a draft PRD and require the author to close every high-severity gap before refinement.
+4. Use `pm/processes/prioritization/SKILL.md` on a backlog slice, recording the strategy link, confidence, dependencies, and explicit parking-lot decisions instead of accepting a bare RICE ranking.
+5. Use `pm/deliverables/roadmap/SKILL.md` to rewrite a feature list into outcome themes with confidence labels for the next stakeholder review.
+6. Use `pm/processes/experimentation-ab/SKILL.md` to draft a hypothesis, sample-size approach, guardrails, and decision rule before approving an experiment.
+7. Use `npx skills add Uxcel-Lab/product-skills --list` first, then install only the PM skills the team needs rather than adding the full UX and PM collection blindly.
 
 ## Limitations / Watch Outs
 
-- One star and zero forks mean the workflows have almost no independent community validation.
-- The repository has only two visible commits and no visible release history, so compatibility and maintenance are uncertain.
-- The accessible GitHub page did not expose primary language, created date, last pushed date, or open-issue count. Do not treat missing metadata as evidence of health.
-- Installation writes symlinks into both `~/.codex/skills/` and `~/.claude/skills/`; review `install.sh` before running it in a controlled environment.
-- The router and skill wording can make a framework recommendation feel more rigorous than the underlying evidence. A PO still owns the decision and must challenge unsupported assumptions.
-- There are no tracker, data warehouse, interview repository, or notification integrations. Inputs must be supplied manually and outputs must be copied into the team's real systems.
-- The license covers the repository content, but the named books and frameworks remain the property of their authors and publishers. Check attribution and internal reuse requirements.
+- The repository is an instruction layer, not a system of record. It will not update Jira, Linear, GitHub Projects, analytics, or a roadmap for you.
+- Most value depends on the assistant receiving real customer evidence, strategy, constraints, and data. Without those inputs, polished output can still be invented.
+- The last push was 2026-07-02, despite the repository being created only ten days earlier. Check for current compatibility and maintenance before standardizing on it.
+- The source material is tied to Uxcel's learning library and links back to its commercial courses. That does not invalidate the skills, but it is a reason to review the provenance and keep internal standards explicit.
+- The PM collection sits beside a much larger UX collection. A full install may add noise and increase prompt or maintenance surface area.
+- The skill names and install commands may change. Verify the current index before scripting installation or referring to a skill in team documentation.
+- Audits can create false confidence if treated as a quality gate without human judgment. They are checklists and reasoning prompts, not evidence that a product decision is correct.
 
 ## Best Starting Points
 
-- [README](https://github.com/jpoindexter/product-management-skills#readme): understand the router, capability map, installation, and validation command.
-- [skills directory](https://github.com/jpoindexter/product-management-skills/tree/main/skills): inspect the individual decision workflows before installing anything.
-- [commands directory](https://github.com/jpoindexter/product-management-skills/tree/main/commands): see how the `/pm` router maps requests to skills.
-- [install.sh](https://github.com/jpoindexter/product-management-skills/blob/main/install.sh): review the symlink targets and installation behavior.
-- [scripts/validate.py](https://github.com/jpoindexter/product-management-skills/blob/main/scripts/validate.py): see the repository's basic quality checks.
-- [product-prioritization skill](https://github.com/jpoindexter/product-management-skills/tree/main/skills/product-prioritization): start with a concrete backlog decision.
-- [product-experiment skill](https://github.com/jpoindexter/product-management-skills/tree/main/skills/product-experiment): start with a measurable learning decision.
+- [README](https://github.com/Uxcel-Lab/product-skills#readme)
+- [Product management index](https://github.com/Uxcel-Lab/product-skills/blob/main/pm/README.md)
+- [Idea to plan workflow](https://github.com/Uxcel-Lab/product-skills/blob/main/pm/workflows/idea-to-plan/SKILL.md)
+- [Product review workflow](https://github.com/Uxcel-Lab/product-skills/blob/main/pm/workflows/product-review/SKILL.md)
+- [Product spec skill](https://github.com/Uxcel-Lab/product-skills/blob/main/pm/deliverables/product-spec/SKILL.md)
+- [Prioritization process](https://github.com/Uxcel-Lab/product-skills/blob/main/pm/processes/prioritization/SKILL.md)
+- [PM skills directory](https://github.com/Uxcel-Lab/product-skills/tree/main/pm)
+- [Release v1.0.0](https://github.com/Uxcel-Lab/product-skills/releases/tag/v1.0.0)
 
 ## Metadata
 
-- Scan date: 2026-10-26
-- Canonical repository URL: https://github.com/jpoindexter/product-management-skills
-- Duplicate detection: canonical GitHub repository URLs matching `github.com/<owner>/<repo>` were extracted from all Markdown files in the vault; this URL was absent before the note was created.
+- Scan date: 2026-10-27
+- Canonical repository URL: https://github.com/Uxcel-Lab/product-skills
+- Duplicate detection uses the canonical GitHub repository URL, normalized to the `owner/repo` pair, across all Markdown files in the vault.
