@@ -1,6 +1,6 @@
 ---
 title: product-lifecycle-templates
-date: 2026-07-23
+date: 2026-10-30
 tags:
   - product-owner
   - product-management
@@ -13,68 +13,69 @@ status: recommended
 # product-lifecycle-templates
 
 ## Verdict
-This is worth a product owner's time if they need better product documents, not another PM reading list. The repo is young and has almost no community proof, so do not treat it as a standard. Treat it as a practical template library for PRDs, user stories, acceptance criteria, backlog shaping, release notes, risks, RAID logs, and KPI dashboards.
+This is worth a product owner's time if the immediate problem is inconsistent product and delivery documentation. The repo now has 52 governed Markdown bundles, including PRDs, user stories, backlogs, acceptance criteria, research plans and reports, experiments, KPI definitions, risks, and launch documents. It is still beta with weak external adoption, so use it as a disciplined starting kit, not as proof that its process will work for your organization.
 
 ## Repository
-[product-on-purpose/product-lifecycle-templates](https://github.com/product-on-purpose/product-lifecycle-templates) is `product-on-purpose/product-lifecycle-templates`.
+[product-on-purpose/product-lifecycle-templates](https://github.com/product-on-purpose/product-lifecycle-templates) is a template library with optional agent skills and a browsable site.
 
 | Field | Value |
 |---|---|
-| Primary language | HTML |
+| Primary language | Python |
 | License | Apache-2.0 |
-| Stars | 0 |
-| Forks | 0 |
-| Open issues | 0 |
+| Stars | 4 |
+| Forks | 1 |
+| Open issues | 10 |
 | Created | 2026-06-30T04:10:22Z |
-| Last pushed | 2026-07-23T02:26:10Z |
-| Latest release | [v0.1.0](https://github.com/product-on-purpose/product-lifecycle-templates/releases/tag/v0.1.0), published 2026-07-17 |
-| Main topics | None listed |
+| Last pushed | 2026-10-30T03:35:10Z |
+| Latest release | [v0.23.0](https://github.com/product-on-purpose/product-lifecycle-templates/releases/tag/v0.23.0), published 2026-10-30 |
+| Main topics | adr, agent-skills, agile, ai-agents, documentation, governance, markdown, prd, product-lifecycle, product-management, project-management, risk-register, scrum, sdlc, templates |
 
 ## Why This Repo Was Picked
-It won because it gives a PO usable artifacts, not just advice. The library has explicit template folders for PRDs, user stories, product backlogs, sprint backlogs, acceptance criteria, release notes, risk registers, RAID logs, KPI dashboards, ADRs, RFCs, and software design documents. Each bundle is designed with a template, guide, companion, example, history, and metadata, which is more useful than a bare Markdown skeleton. The setup burden is low: clone the repo, copy the right template, and adapt it.
+This refresh won because it moved materially since the July note: it released v0.23.0, completed an eleven-family library with 52 bundles, and was pushed again on October 30. The practical value is the bundle design: each type includes a fillable template, a guide that says when not to use it, a deeper companion, a worked example, and machine-readable metadata. That gives a PO a usable artifact and a quality check, not just a blank PRD or a list of frameworks.
 
 ## Shortlist Considered
 | Repo | What it offers | Why it did not win or why it won |
 |---|---|---|
-| [product-on-purpose/product-lifecycle-templates](https://github.com/product-on-purpose/product-lifecycle-templates) | Governed product and delivery document templates with examples and metadata | Won because it maps directly to PO documentation, refinement, alignment, and delivery handoff work |
-| [aws-samples/sample-kiro-cli-prompts-for-product-teams](https://github.com/aws-samples/sample-kiro-cli-prompts-for-product-teams) | Kiro steering files for discovery, market research, PRFAQ, PRD, and prototype generation | Useful, but too tied to Kiro and AWS flavored AI product workflows |
-| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | Large PM skills marketplace for AI-assisted discovery, strategy, execution, and launch | Strong reach, but more assistant-platform dependent and noisier for a PO who just needs reusable work artifacts |
-| [ugur10/prd-template](https://github.com/ugur10/prd-template) | Focused PRD template, example, and checklist | Practical but narrow compared with the broader lifecycle coverage here |
-| [natea/ar-claude-skills](https://github.com/natea/ar-claude-skills) | Broad Claude skills library with product and marketing sections | Too broad and less clearly maintained for day-to-day PO reuse |
+| [product-on-purpose/product-lifecycle-templates](https://github.com/product-on-purpose/product-lifecycle-templates) | 52 governed bundles spanning discovery, planning, delivery, governance, research, and experimentation | Won on current maintenance, breadth of reusable artifacts, explicit usage boundaries, and low setup |
+| [lucas-de-lima/product-manager-skills](https://github.com/lucas-de-lima/product-manager-skills) | Agent skills for product management across discovery, strategy, execution, and lifecycle work | Useful but has 0 stars, 0 forks, no listed topics, and no push since 2026-09-12; it is more runtime-dependent than this repo |
+| [mohammadrizvi624/pm-os](https://github.com/mohammadrizvi624/pm-os) | Plugin-style AI workflows for discovery, strategy, execution, GTM, and growth | Broad and promising, but the last push was 2026-06-11 and the AI plugin setup is a larger operational bet |
+| [DipakMajhi/product-management-skills](https://github.com/DipakMajhi/product-management-skills) | 83 Claude Code skills for PRDs, roadmaps, prioritization, research, and retrospectives | Large surface area, but only 2 stars, no recent push after 2026-03-16, and strong Claude Code coupling |
+| [vignesh-s7/product-management](https://github.com/vignesh-s7/product-management) | Agentic PM operating system connecting PRDs to SDLC, analytics, and regulated AI delivery | Interesting for regulated AI teams, but it is much heavier and has only 1 open issue with no push since 2026-08-21 |
 
 ## What It Is
-This is a template library for product-management and software-lifecycle documents. It is not a SaaS app, backlog tracker, roadmap board, or analytics tool. The useful unit is a document bundle: a blank template, short guide, deeper companion, worked example, metadata, and history file.
+This is a governed document-template library, not a backlog tracker, roadmap board, analytics product, or project-management system. Its unit of reuse is a bundle: a lean and sometimes full template, inline guidance, a companion explanation, a worked example, metadata, and history. The repo also includes two agent skills, CI quality checks, a machine catalog, a static browsing site, and an optional plugin or `npx skills` installation path.
 
 ## Why It Is Useful For Product Owners
-For backlog refinement, the product backlog, sprint backlog, user story, and acceptance criteria bundles give a PO a repeatable shape for turning messy requests into buildable work. For discovery and alignment, the PRD, RFC, ADR, and software design document bundles help separate problem, proposal, decision, and technical design. For delivery coordination, release notes, RAID logs, risk registers, and KPI dashboards create a paper trail for launch readiness, blockers, assumptions, owners, and success measures. This is boring in the right way: it helps a PO make work explicit before it hits engineering.
+For discovery, use problem statements, project briefs, user research plans and reports, and design briefs to separate evidence from solution preference. For backlog refinement, use PRD, epic, user story, product backlog, sprint backlog, and acceptance criteria bundles to turn requests into bounded, testable work. For prioritization and stakeholder alignment, use trade studies, RFCs, ADRs, product vision, positioning, and North Star metrics to make alternatives, decisions, and outcomes explicit. For delivery, use release notes, launch coordination, change requests, RAID logs, issue logs, risk registers, KPI dashboards, tracking plans, and data dictionaries to assign ownership and preserve the decision trail. For experimentation, use experiment design and readout bundles to define a hypothesis, measurement plan, result, and next decision before the team starts arguing from anecdotes.
 
 ## How I Would Actually Use It
-1. Copy the lean PRD template before starting a medium-sized feature and force the team to fill problem, non-goals, requirements, success metrics, risks, and launch notes before sprint planning.
-2. Use the user stories bundle to rewrite vague backlog items into role, need, value, acceptance criteria, dependency, and testable outcome.
-3. Use the acceptance criteria bundle during refinement when stories keep passing grooming but failing QA or stakeholder review.
-4. Use the product backlog and sprint backlog templates to split product intent from delivery execution, especially when stakeholders ask why something did not fit into the sprint.
-5. Use the risk register and RAID log before launch to make assumptions, blockers, decisions, and issue ownership visible instead of scattered across Slack and meetings.
-6. Use the KPI dashboard definition template before asking analytics or engineering to build a dashboard, so the metric, audience, grain, threshold, and decision it supports are clear.
-7. Use the release notes bundle to draft stakeholder-facing release communication while acceptance is still happening, not after shipping.
+1. Start with `docs/choosing-a-template.md`, pick the smallest applicable bundle, and copy the lean PRD into the team's working repository.
+2. During refinement, pair the user story and acceptance criteria bundles so each story has a user outcome, exclusions, edge cases, and a testable completion condition.
+3. When stakeholders disagree on a feature, write a trade study with a do-nothing option, then record the decision in an ADR instead of reopening the same debate every sprint.
+4. Before committing to a discovery track, use the problem statement and user research plan to state the evidence gap and the decision the research must inform.
+5. Before an experiment, fill the experiment design document and tracking plan so the event grain, success metric, guardrail, and stop rule are agreed before launch.
+6. Before a release, use the launch coordination checklist, RAID log, risk register, and internal announcement bundle to expose owners, blockers, dependencies, and audience-specific actions.
+7. Run the filled documents through the repository's provenance and quality conventions, then keep the source template version in frontmatter so later edits remain traceable.
 
 ## Limitations / Watch Outs
-The repo has almost no external adoption signal: 0 stars, 0 forks, and no open issues at scan time. It is actively pushed and internally disciplined, but it is still young and mostly author-proven. It also has no real distribution surface beyond cloning the repo, and its own state file says there are no real fills by anyone but the author. If your team already has strong templates in Jira, Confluence, Notion, or Aha, this may be more useful as an audit checklist than as a replacement.
+The repository has weak external proof: 4 stars and 1 fork do not establish adoption, and the 10 open issues show active maintenance rather than successful use. The README says the library is experimental and beta, and its green CI gate proves structure and research checks, not that the documents improve outcomes. The 52-bundle surface is now large enough to create choice overload, while the optional plugin and agent skills introduce Claude or agent-runtime assumptions. It does not synchronize with Jira, Linear, Azure DevOps, analytics, or a system of record. If your team already has effective templates, copy the decision rules and quality checks rather than replacing the existing workflow wholesale.
 
 ## Best Starting Points
-- [README](https://github.com/product-on-purpose/product-lifecycle-templates#readme)
-- [templates/](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates)
-- [templates/prd](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/prd)
-- [templates/user-stories](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/user-stories)
-- [templates/acceptance-criteria](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/acceptance-criteria)
-- [templates/product-backlog](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/product-backlog)
-- [templates/risk-register](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/risk-register)
-- [templates/kpi-dashboard](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/kpi-dashboard)
-- [STATE.md](https://github.com/product-on-purpose/product-lifecycle-templates/blob/main/STATE.md)
-- [latest release v0.1.0](https://github.com/product-on-purpose/product-lifecycle-templates/releases/tag/v0.1.0)
+- [README and quick start](https://github.com/product-on-purpose/product-lifecycle-templates#readme)
+- [Getting started tutorial](https://github.com/product-on-purpose/product-lifecycle-templates/blob/main/docs/tutorials/getting-started.md)
+- [Choosing a template](https://github.com/product-on-purpose/product-lifecycle-templates/blob/main/docs/reference/choosing-a-template.md)
+- [Template catalog](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates)
+- [PRD bundle](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/prd)
+- [User stories bundle](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/user-stories)
+- [Product backlog bundle](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/product-backlog)
+- [Acceptance criteria bundle](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/acceptance-criteria)
+- [Experiment design bundle](https://github.com/product-on-purpose/product-lifecycle-templates/tree/main/templates/experiment-design-doc)
+- [Latest release v0.23.0](https://github.com/product-on-purpose/product-lifecycle-templates/releases/tag/v0.23.0)
+- [Current state and limitations](https://github.com/product-on-purpose/product-lifecycle-templates/blob/main/STATE.md)
 
 ## Metadata
-Scan date: 2026-07-23
+Scan date: 2026-10-30
 
 Canonical repository URL: https://github.com/product-on-purpose/product-lifecycle-templates
 
-Duplicate detection uses the canonical GitHub repository URL.
+Duplicate detection uses the canonical GitHub repository URL, not the note filename or title.
