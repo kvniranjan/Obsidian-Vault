@@ -1,99 +1,94 @@
 ---
-title: po-skills-kit
-date: 2026-11-05
+title: sprintwise
+date: 2026-11-12
 tags:
   - product-owner
   - product-management
   - github
-source: https://github.com/rafauto/po-skills-kit
-repo: rafauto/po-skills-kit
+source: https://github.com/NaderAbsy/sprintwise
+repo: NaderAbsy/sprintwise
 status: recommended
 ---
 
-# po-skills-kit
+# sprintwise
 
 ## Verdict
 
-Yes, this is worth a product owner's time if you use Claude and want repeatable backlog hygiene without buying another system. It combines prompt-driven PO workflows with deterministic checks for story quality, RICE scoring, and release-note grouping, which is more defensible than asking an LLM to judge its own output. It is also extremely new, with no adoption proof or release history, so treat it as a useful MVP to test rather than a trusted team standard.
+This is genuinely worth a product owner's time if the team uses Jira or can work from CSV exports. Sprintwise turns story readiness and sprint scope change into explicit, repeatable checks instead of subjective refinement arguments. It is not a replacement for a backlog system, and the zero-star project and noncommercial license mean you should trial it before adopting it at work.
 
 ## Repository
 
-- Repository: [rafauto/po-skills-kit](https://github.com/rafauto/po-skills-kit)
-- README: [README.md](https://github.com/rafauto/po-skills-kit/blob/main/README.md)
-- Primary language: Python
-- License: MIT
+- Repository: [NaderAbsy/sprintwise](https://github.com/NaderAbsy/sprintwise)
+- Primary language: TypeScript
+- License: PolyForm Noncommercial 1.0.0, described in the repository README; GitHub API license metadata is `NOASSERTION`
 - Stars: 0
 - Forks: 0
-- Open issues: 2
-- Created: 2026-11-05
-- Last pushed: 2026-11-05
-- Releases: none
-- Main topics: `claude`, `llm`, `mcp`, `product-management`, `product-owner`, `python`, `streamlit`, `user-stories`
+- Open issues: 4
+- Created: 2026-10-01
+- Last pushed: 2026-11-11
+- Main topics: agile, jira, nextjs, product-management, product-owner, scrum, sprint-planning, user-stories
+- Latest release: [v2.33](https://github.com/NaderAbsy/sprintwise/releases/tag/v2.33), published 2026-11-11
 
 ## Why This Repo Was Picked
 
-It directly covers recurring PO work instead of offering only generic prompts: user-story drafting, backlog refinement, RICE prioritization, and release notes. The important design choice is that Claude writes and explains artifacts while tested Python code checks story rules, calculates scores, validates input, and groups commits. The repository also includes fictional examples, recorded eval fixtures, CI, an MCP interface, a CLI, and a no-account Streamlit demo, so a PO can try the workflow before wiring it into a team environment.
+Sprintwise addresses two recurring PO problems with concrete mechanics: whether a story is ready to plan and how much committed sprint scope changes afterward. Its nine fixed readiness rules produce a score and a plain-English reason for every lost point, while its locked baseline records added, removed, changed, and completed scope. The live demo works without sign-in, Jira is optional through CSV or direct entry, the repository includes unit, end-to-end, keyboard, and accessibility tests, and maintenance is visible through frequent commits and a same-day release.
 
 ## Shortlist Considered
 
 | Repo | What it offers | Why it did not win or why it won |
 |---|---|---|
-| [rafauto/po-skills-kit](https://github.com/rafauto/po-skills-kit) | Claude skills, story linter, RICE calculator, backlog refinement, release notes, CLI, MCP, and demo app | Won because it puts deterministic checks behind common PO workflows and has a low-cost local trial path |
-| [NaderAbsy/sprintwise](https://github.com/NaderAbsy/sprintwise) | Story readiness scoring, Jira import and sync, sprint scope-change tracking, and reports | Strong product, but it is a larger hosted application with no detected license metadata and more setup and account dependency |
-| [willowdev-code/ado-lens](https://github.com/willowdev-code/ado-lens) | Azure DevOps MCP server with PO skills for work items, boards, sprints, wiki, tests, and delivery tracing | More operationally capable, but useful mainly to Azure DevOps and Claude users and heavier to install |
-| [product-on-purpose/product-lifecycle-templates](https://github.com/product-on-purpose/product-lifecycle-templates) | Governed lifecycle bundles with templates, guides, examples, and quality gates | Already covered in the vault and broader than the immediate backlog-quality problem |
-| [saurabh1chawda/product-discovery-toolkit](https://github.com/saurabh1chawda/product-discovery-toolkit) | Discovery frameworks, evidence scoring, templates, examples, and workshop artifacts | Already covered in the vault and focused upstream on discovery rather than recurring delivery mechanics |
+| [NaderAbsy/sprintwise](https://github.com/NaderAbsy/sprintwise) | Rule-based story readiness, Jira and CSV intake, sprint scope tracking, reports, and a live demo | Won because it gives a PO a usable weekly workflow with measurable outputs and low initial trial cost |
+| [JOY/CC-PO](https://github.com/JOY/CC-PO) | Claude Code plugin for GitHub Project triage, task claiming, sub-session briefs, and acceptance gates | Strong delivery automation, but it requires Claude desktop, GitHub Project administration, and a repository workflow that can safely coordinate agent sessions |
+| [Fully-Powered-AI/product-management-workflow-templates](https://github.com/Fully-Powered-AI/product-management-workflow-templates) | Markdown workflow templates for assumptions, scope, tradeoffs, and release work | Too new and template-centered to beat a working, test-backed product workflow |
+| [felipe3dfx/pi-workflow](https://github.com/felipe3dfx/pi-workflow) | Pi agent workflow for discovery, specification, implementation planning, delivery, and review | More engineering-agent infrastructure than a PO can use immediately, with a Pi runtime dependency |
+| [muchengracedriver/awesome-requirements-writer](https://github.com/muchengracedriver/awesome-requirements-writer) | Agent skill for precise, atomic, testable, traceable technical requirements | Useful for requirements quality, but narrower and more engineering-oriented than Sprintwise's recurring backlog and sprint controls |
 
 ## What It Is
 
-This is a small Python package with three interfaces around the same core logic: a command-line tool, an MCP server, and a Streamlit demo. It also contains four Claude skill folders that guide conversation-level work: `write-user-story`, `refine-backlog`, `prioritize-rice`, and `release-notes`.
-
-The code handles the parts that should be reproducible: Given/When/Then story checks, input validation, RICE calculation, tie-breaking, and Conventional Commit grouping. The LLM remains responsible for drafting, asking questions, and explaining results. It is a toolkit and workflow starter, not a backlog system, Jira replacement, analytics platform, or complete product operating model.
+Sprintwise is a TypeScript and Next.js web application, not a documentation-only template library. It has a rule engine for story readiness, a backlog and sprint model, CSV import, optional Jira Cloud connection and synchronization, scope snapshots, reports, a public demo, and optional AI rewrite and test-scenario code that is switched off in the hosted product. The repository also contains the product decisions, screenshots, CI configuration, database migrations, and end-to-end tests.
 
 ## Why It Is Useful For Product Owners
 
-- Backlog refinement: identify duplicates, oversized items, missing acceptance criteria, unclear personas, dependencies, and stakeholder questions.
-- User stories: turn raw requests into one story with explicit persona, benefit, happy path, edge case, and open questions.
-- Acceptance criteria: check that scenarios have observable Given, When, and Then steps instead of trusting a prose review.
-- Prioritization: calculate reproducible RICE scores, explain the top three, and flag rankings that are sensitive to Confidence.
-- Stakeholder alignment: keep assumptions, questions, splits, and rationale visible in the generated artifacts.
-- Delivery coordination: turn conventional commit input into customer, internal, or stakeholder release notes while hiding internal maintenance work.
-- AI governance: treat pasted backlog content as data, use fictional examples, and keep deterministic checks outside the model's self-assessment.
+- Backlog refinement: apply the same nine checks to every story before sprint planning and see exactly what is missing.
+- User stories and acceptance criteria: catch vague actors, weak outcomes, missing acceptance criteria, absent estimates, and oversized stories before commitment.
+- Delivery coordination: lock the day-one sprint baseline and distinguish added, removed, changed, and completed scope.
+- Stakeholder alignment: share a one-page sprint report and explain scope churn with dates and recorded changes.
+- Metrics: compare readiness, scope change, churn, completion, and burn-up trends across sprints instead of relying on retrospective anecdotes.
+- Jira operations: import a backlog from Jira or CSV, reorder it, score it, and optionally send edits back through the Jira connection.
+- Experimentation discipline: use the readiness gate as a precondition for a small delivery experiment, while keeping outcome metrics outside Sprintwise.
 
 ## How I Would Actually Use It
 
-1. Copy `skills/write-user-story` into a Claude skills directory and paste one stakeholder request at a time. Require the output to include open questions instead of allowing invented business rules.
-2. Export a backlog to Markdown or CSV, run `po-kit lint` on story files, and use the errors as the agenda for the next refinement session.
-3. Run `po-kit rice examples/backlog.csv` on a candidate list, then review the top three and any items whose position changes when Confidence moves from 80% to 50%.
-4. Use the `refine-backlog` skill before sprint planning to classify each item as Ready, Clarify, Split, Merge, or Rewrite, while retaining the original title.
-5. Connect the MCP server to Claude Desktop or Claude Code so the model can call `lint_story`, `score_rice`, and `build_release_notes` instead of reproducing formulas in prose.
-6. Generate customer-facing release notes from `git log --oneline` after a release, then manually check that every line traces to a real commit and that internal work was not exposed.
-7. Run the included offline tests and eval fixtures before changing the rules, so a local customization does not silently reduce story quality or alter the scoring contract.
+1. Paste the next sprint's candidate stories into the demo or local app and reject any story that fails the readiness band until its actor, outcome, criteria, or estimate is explicit.
+2. Export a Jira backlog to CSV and use the sorted readiness view to prepare a refinement agenda, starting with the lowest-scoring high-priority items.
+3. Add team-specific Definition of Ready checks so a story can be structurally complete but still blocked by a local dependency or missing decision.
+4. Lock the sprint baseline at planning time, then review the change log in the daily sync instead of arguing from memory about scope growth.
+5. Send the printable sprint report to stakeholders at the end of the sprint, using the recorded scope changes to explain why completion differs from the original commitment.
+6. Review several sprint reports together to decide whether the recurring problem is weak story preparation, unstable priorities, estimation quality, or delivery capacity. Do not treat the score as a prioritization model.
 
 ## Limitations / Watch Outs
 
-- The repository was created and pushed on 2026-11-05. Zero stars, zero forks, no releases, and only two open issues provide no meaningful adoption evidence yet.
-- The Claude skills require Claude Code or Claude Desktop with skills enabled. The core CLI can run without an API key, but the conversational workflow is Claude-specific.
-- RICE is only as good as Reach, Impact, Confidence, and Effort inputs. A reproducible score does not make weak estimates or strategic choices correct.
-- The story linter checks form and observable language, not whether the problem matters, the proposed outcome is valuable, or the solution is viable.
-- There is no Jira, Linear, Azure DevOps, GitHub Issues, product analytics, or system-of-record integration in the current MVP. The backlog still has to be copied or exported.
-- The Streamlit demo uses fictional data and should not receive customer or personal information. Local execution reduces exposure, but team retention and access policies remain your responsibility.
-- The roadmap lists missing capabilities such as WSJF, a configurable Definition of Ready, GitHub issue export, sprint goals, and PyPI publication. Do not assume those exist because the workflow sounds complete.
+- Adoption proof is weak: the repository has 0 stars and 0 forks, and all sample data is invented.
+- The license is PolyForm Noncommercial 1.0.0. Commercial use or embedding in a product or service needs permission; do not assume the code is ordinary MIT software despite older history noted in the README.
+- The hosted product is Jira Cloud only, supports up to 1,000 issues per search, and has one owner per project for editing.
+- Jira synchronization reads issues but not their full change history, so scope attribution does not identify who changed an item.
+- The app does not replace Jira, a roadmap tool, product analytics, or an outcome measurement system. Its rules measure story readiness, not customer value.
+- Local setup requires Node 24, pnpm, Docker, PostgreSQL, OAuth configuration, and environment variables. The no-login demo is the sensible first test.
+- AI suggestions are built but disabled on the live site to avoid operating cost. Any future AI rewrite still needs human review.
 
 ## Best Starting Points
 
-- [README and quick start](https://github.com/rafauto/po-skills-kit/blob/main/README.md)
-- [User-story skill](https://github.com/rafauto/po-skills-kit/blob/main/skills/write-user-story/SKILL.md)
-- [Backlog-refinement skill](https://github.com/rafauto/po-skills-kit/blob/main/skills/refine-backlog/SKILL.md)
-- [RICE skill](https://github.com/rafauto/po-skills-kit/blob/main/skills/prioritize-rice/SKILL.md)
-- [Release-notes skill](https://github.com/rafauto/po-skills-kit/blob/main/skills/release-notes/SKILL.md)
-- [Fictional examples](https://github.com/rafauto/po-skills-kit/tree/main/examples)
-- [Offline evals and tests](https://github.com/rafauto/po-skills-kit/tree/main/tests)
-- [Architecture decisions](https://github.com/rafauto/po-skills-kit/tree/main/docs/decisions)
-- [Issues and roadmap](https://github.com/rafauto/po-skills-kit/issues)
+- [README](https://github.com/NaderAbsy/sprintwise/blob/main/README.md)
+- [Live demo](https://sprintwise.app/demo)
+- [Product guide](https://sprintwise.app/guide)
+- [Product decisions](https://github.com/NaderAbsy/sprintwise/blob/main/DECISIONS.md)
+- [Demo video script](https://github.com/NaderAbsy/sprintwise/blob/main/docs/demo-video-script.md)
+- [Screenshots](https://github.com/NaderAbsy/sprintwise/tree/main/docs/screenshots)
+- [Releases](https://github.com/NaderAbsy/sprintwise/releases)
+- [End-to-end tests](https://github.com/NaderAbsy/sprintwise/tree/main/e2e)
 
 ## Metadata
 
-- Scan date: 2026-11-05
-- Canonical repository URL: https://github.com/rafauto/po-skills-kit
-- Duplicate detection uses the canonical GitHub repository URL, normalized as `github.com/<owner>/<repo>`, across all Markdown files in the Obsidian vault.
+- Scan date: 2026-11-12
+- Canonical repository URL: https://github.com/NaderAbsy/sprintwise
+- Duplicate detection uses the canonical GitHub repository URL, normalized by owner and repository name, across every Markdown file in the vault.
